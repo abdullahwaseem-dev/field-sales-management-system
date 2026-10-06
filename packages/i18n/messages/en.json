@@ -1,0 +1,1718 @@
+{
+  "$description": "English source catalogue (ICU MessageFormat). Every UI string in the portal and the mobile app lives here. Keys are namespaced by feature.",
+  "app.name": {
+    "message": "ZONA Sales",
+    "description": "Short product name (app launcher, browser tab)"
+  },
+  "app.portal": {
+    "message": "Admin Portal"
+  },
+  "app.brandLabel": {
+    "message": "ZONA",
+    "description": "Accessible name for the logo image"
+  },
+  "nav.dashboard": {
+    "message": "Dashboard"
+  },
+  "nav.employees": {
+    "message": "Employees"
+  },
+  "nav.attendance": {
+    "message": "Attendance"
+  },
+  "nav.liveMap": {
+    "message": "Live map"
+  },
+  "nav.marketing": {
+    "message": "Marketing"
+  },
+  "nav.reports": {
+    "message": "Reports"
+  },
+  "nav.settings": {
+    "message": "Settings"
+  },
+  "nav.collapse": {
+    "message": "Collapse sidebar"
+  },
+  "nav.expand": {
+    "message": "Expand sidebar"
+  },
+  "nav.main": {
+    "message": "Main navigation"
+  },
+  "nav.searchPlaceholder": {
+    "message": "Search employees, IDs, products…"
+  },
+  "tab.home": {
+    "message": "Home",
+    "description": "Mobile bottom tab"
+  },
+  "tab.catalogue": {
+    "message": "Catalogue",
+    "description": "Mobile bottom tab"
+  },
+  "tab.leave": {
+    "message": "Leave",
+    "description": "Mobile bottom tab"
+  },
+  "tab.profile": {
+    "message": "Profile",
+    "description": "Mobile bottom tab"
+  },
+  "status.present": {
+    "message": "Present"
+  },
+  "status.late": {
+    "message": "Late"
+  },
+  "status.absent": {
+    "message": "Absent"
+  },
+  "status.suspected_fake": {
+    "message": "Suspected fake",
+    "description": "Auto-flagged by fraud detection, waiting for human review"
+  },
+  "status.confirmed_fake": {
+    "message": "Confirmed fake",
+    "description": "A reviewer confirmed the check-in was fraudulent"
+  },
+  "status.on_leave": {
+    "message": "On leave"
+  },
+  "status.shortBy": {
+    "message": "Short by {duration}",
+    "description": "Worked less than the required daily hours"
+  },
+  "duration.hm": {
+    "message": "{hours}h {minutes}m",
+    "description": "Hours and minutes, e.g. 7h 40m"
+  },
+  "duration.h": {
+    "message": "{hours}h",
+    "description": "Whole hours, e.g. 8h"
+  },
+  "day.notCheckedIn": {
+    "message": "Not checked in"
+  },
+  "day.onDuty": {
+    "message": "On duty"
+  },
+  "day.onBreak": {
+    "message": "On break"
+  },
+  "day.checkedOut": {
+    "message": "Checked out"
+  },
+  "hero.checkIn": {
+    "message": "Check in"
+  },
+  "hero.checkOut": {
+    "message": "Check out"
+  },
+  "hero.checkInHint": {
+    "message": "Tap to check in at {site}"
+  },
+  "hero.workedOf": {
+    "message": "{worked} of {required}",
+    "description": "Worked time out of the required daily time"
+  },
+  "hero.remaining": {
+    "message": "{duration} to go"
+  },
+  "hero.complete": {
+    "message": "Required hours complete"
+  },
+  "hero.checkedInAt": {
+    "message": "Checked in at {time}"
+  },
+  "hero.locationOn": {
+    "message": "Location sharing is ON"
+  },
+  "hero.locationOnHint": {
+    "message": "Turns off automatically when you check out."
+  },
+  "hero.earlyTitle": {
+    "message": "Check out early?"
+  },
+  "hero.earlyBody": {
+    "message": "You have worked {worked}. The required day is {required}, so {remaining} is left. Your day will be marked as short."
+  },
+  "hero.earlyConfirm": {
+    "message": "Check out anyway"
+  },
+  "hero.keepWorking": {
+    "message": "Keep working"
+  },
+  "action.save": {
+    "message": "Save"
+  },
+  "action.cancel": {
+    "message": "Cancel"
+  },
+  "action.confirm": {
+    "message": "Confirm"
+  },
+  "action.retry": {
+    "message": "Try again"
+  },
+  "action.close": {
+    "message": "Close"
+  },
+  "action.search": {
+    "message": "Search"
+  },
+  "action.filter": {
+    "message": "Filter"
+  },
+  "action.columns": {
+    "message": "Columns"
+  },
+  "action.export": {
+    "message": "Export"
+  },
+  "action.actions": {
+    "message": "Actions"
+  },
+  "action.viewDetails": {
+    "message": "View details"
+  },
+  "action.viewTrail": {
+    "message": "View location trail"
+  },
+  "action.review": {
+    "message": "Review"
+  },
+  "action.approve": {
+    "message": "Approve"
+  },
+  "action.reject": {
+    "message": "Reject"
+  },
+  "action.delete": {
+    "message": "Delete"
+  },
+  "action.selectAll": {
+    "message": "Select all rows"
+  },
+  "action.selectRow": {
+    "message": "Select {name}"
+  },
+  "action.showMore": {
+    "message": "Show more"
+  },
+  "action.newEmployee": {
+    "message": "New employee"
+  },
+  "action.dismiss": {
+    "message": "Dismiss notification"
+  },
+  "state.loading": {
+    "message": "Loading…"
+  },
+  "state.errorTitle": {
+    "message": "Something went wrong"
+  },
+  "state.errorBody": {
+    "message": "We couldn't load this data. Check your connection and try again."
+  },
+  "state.emptyReviewTitle": {
+    "message": "No suspected check-ins"
+  },
+  "state.emptyReviewBody": {
+    "message": "Flagged check-ins will appear here for review."
+  },
+  "state.offlineTitle": {
+    "message": "You're offline"
+  },
+  "state.offlineBody": {
+    "message": "Showing data from {time}. We'll refresh when you reconnect."
+  },
+  "state.noResults": {
+    "message": "No employees match your filters"
+  },
+  "state.noResultsBody": {
+    "message": "Try a different name, employee ID or team."
+  },
+  "field.email": {
+    "message": "Work email"
+  },
+  "field.phone": {
+    "message": "Mobile number"
+  },
+  "field.employeeId": {
+    "message": "Employee ID"
+  },
+  "field.password": {
+    "message": "Password"
+  },
+  "field.team": {
+    "message": "Team"
+  },
+  "field.teamPlaceholder": {
+    "message": "Select a team"
+  },
+  "field.remark": {
+    "message": "Review remark"
+  },
+  "field.remarkHint": {
+    "message": "Required. Explain the evidence behind your decision."
+  },
+  "field.optional": {
+    "message": "Optional"
+  },
+  "field.required": {
+    "message": "Required"
+  },
+  "field.errorRequired": {
+    "message": "This field is required"
+  },
+  "field.errorPhone": {
+    "message": "Enter a valid Saudi mobile number, e.g. 05XXXXXXXX"
+  },
+  "field.phoneHint": {
+    "message": "We send one-time login codes to this number."
+  },
+  "field.searchLabel": {
+    "message": "Search the register"
+  },
+  "team.riyadhNorth": {
+    "message": "Riyadh North"
+  },
+  "team.jeddahCentral": {
+    "message": "Jeddah Central"
+  },
+  "team.dammamEast": {
+    "message": "Dammam East"
+  },
+  "table.employee": {
+    "message": "Employee"
+  },
+  "table.employeeId": {
+    "message": "Employee ID"
+  },
+  "table.team": {
+    "message": "Team"
+  },
+  "table.checkIn": {
+    "message": "Check-in"
+  },
+  "table.checkOut": {
+    "message": "Check-out"
+  },
+  "table.worked": {
+    "message": "Worked"
+  },
+  "table.status": {
+    "message": "Status"
+  },
+  "table.selected": {
+    "message": "{count, plural, one {# selected} other {# selected}}"
+  },
+  "table.rows": {
+    "message": "{count, plural, one {# employee} other {# employees}}"
+  },
+  "table.sortAsc": {
+    "message": "Sorted ascending"
+  },
+  "table.sortDesc": {
+    "message": "Sorted descending"
+  },
+  "table.notSorted": {
+    "message": "Not sorted. Activate to sort."
+  },
+  "table.caption": {
+    "message": "Attendance register for {date}"
+  },
+  "review.title": {
+    "message": "Review suspected fake check-in"
+  },
+  "review.evidence": {
+    "message": "Evidence"
+  },
+  "review.signalMock": {
+    "message": "A mock-location app was active on the device"
+  },
+  "review.signalMismatch": {
+    "message": "GPS and network locations were {distance} apart"
+  },
+  "review.signalSpeed": {
+    "message": "Moved {distance} in {minutes, plural, one {# minute} other {# minutes}} — faster than possible by road"
+  },
+  "review.confirmFake": {
+    "message": "Confirm as fake"
+  },
+  "review.markGenuine": {
+    "message": "Mark as genuine"
+  },
+  "review.auditNote": {
+    "message": "Your decision is logged with your name. To change it later, re-open the month."
+  },
+  "toast.checkedIn": {
+    "message": "Checked in at {time}"
+  },
+  "toast.checkedInBody": {
+    "message": "Location sharing stays on until you check out."
+  },
+  "toast.leaveApproved": {
+    "message": "Leave approved"
+  },
+  "toast.leaveApprovedBody": {
+    "message": "{name} is on leave {range}."
+  },
+  "toast.offlineQueued": {
+    "message": "{count, plural, one {# location update is saved and will be sent when you're back online.} other {# location updates are saved and will be sent when you're back online.}}"
+  },
+  "toast.geofenceExit": {
+    "message": "You left your work area"
+  },
+  "toast.geofenceExitBody": {
+    "message": "Your administrator has been notified. Location sharing continues while you're on duty."
+  },
+  "toast.saveFailed": {
+    "message": "Changes not saved"
+  },
+  "kpi.onDuty": {
+    "message": "On duty now"
+  },
+  "kpi.notCheckedIn": {
+    "message": "Not checked in"
+  },
+  "kpi.late": {
+    "message": "Late today"
+  },
+  "kpi.suspected": {
+    "message": "Suspected fake today"
+  },
+  "kpi.vsYesterday": {
+    "message": "{delta} vs yesterday"
+  },
+  "kpi.ofTeam": {
+    "message": "of {total} scheduled"
+  },
+  "map.marker": {
+    "message": "{name}, {initials}, {status}, last update {time}",
+    "description": "Map marker accessible name. Must contain the visible initials (WCAG 2.5.3); avoid parentheses, which some checkers strip."
+  },
+  "map.cluster": {
+    "message": "{count, plural, one {# employee in this area} other {# employees in this area}}"
+  },
+  "map.legend": {
+    "message": "Map legend"
+  },
+  "map.lastUpdate": {
+    "message": "Updated {time}"
+  },
+  "settings.theme": {
+    "message": "Theme"
+  },
+  "settings.themeSystem": {
+    "message": "System"
+  },
+  "settings.themeLight": {
+    "message": "Light"
+  },
+  "settings.themeDark": {
+    "message": "Dark"
+  },
+  "settings.language": {
+    "message": "Language"
+  },
+  "settings.languageEn": {
+    "message": "English",
+    "description": "Always shown in its own language"
+  },
+  "settings.languageAr": {
+    "message": "العربية",
+    "description": "Always shown in its own language"
+  },
+  "settings.digits": {
+    "message": "Numbers"
+  },
+  "settings.digitsWestern": {
+    "message": "0-9"
+  },
+  "settings.digitsArabic": {
+    "message": "٠-٩"
+  },
+  "settings.hijri": {
+    "message": "Show Hijri date"
+  },
+  "ds.title": {
+    "message": "Design system"
+  },
+  "ds.subtitle": {
+    "message": "Phase 0 review: every core component in English and Arabic, light and dark."
+  },
+  "ds.interimLogo": {
+    "message": "Interim logo: extracted from the guidelines sheet at native resolution. Final assets need the vector masters."
+  },
+  "ds.brand": {
+    "message": "Brand"
+  },
+  "ds.color": {
+    "message": "Colour"
+  },
+  "ds.typography": {
+    "message": "Typography"
+  },
+  "ds.foundations": {
+    "message": "Spacing, radius, elevation & motion"
+  },
+  "ds.components": {
+    "message": "Components"
+  },
+  "ds.mobile": {
+    "message": "Mobile components (Flutter)"
+  },
+  "ds.contrast": {
+    "message": "{count, plural, one {# contrast pair passes WCAG AA} other {# contrast pairs pass WCAG AA}}"
+  },
+  "ds.preferences": {
+    "message": "Preferences"
+  },
+  "ds.combo.enLight": {
+    "message": "English · Light"
+  },
+  "ds.combo.enDark": {
+    "message": "English · Dark"
+  },
+  "ds.combo.arLight": {
+    "message": "Arabic · Light"
+  },
+  "ds.combo.arDark": {
+    "message": "Arabic · Dark"
+  },
+  "ds.sample.name": {
+    "message": "Faisal Al-Harbi",
+    "description": "Sample employee name"
+  },
+  "ds.sample.paragraph": {
+    "message": "Sales representatives check in once per day from an approved site. Location sharing runs only while they are on duty and stops at check-out."
+  },
+  "ds.sample.bidi": {
+    "message": "Employee {id} ({email}) checked in from {phone}."
+  },
+  "ds.sample.plural": {
+    "message": "{count, plural, one {# visit today} other {# visits today}}"
+  },
+  "ds.sample.dateGregorian": {
+    "message": "Gregorian"
+  },
+  "ds.sample.dateHijri": {
+    "message": "Hijri (Umm al-Qura)"
+  },
+  "ds.sample.site": {
+    "message": "Olaya branch"
+  },
+  "ds.skip": {
+    "message": "Skip to content"
+  },
+  "ds.tryIt": {
+    "message": "Try it"
+  },
+  "ds.scales": {
+    "message": "Brand scales"
+  },
+  "ds.roles": {
+    "message": "Semantic roles"
+  },
+  "ds.statusTokens": {
+    "message": "Attendance statuses"
+  },
+  "ds.chart": {
+    "message": "Chart palette"
+  },
+  "ds.chartNote": {
+    "message": "Validated for colour-blind separation in both themes. On light backgrounds, slots 3 to 5 need direct labels or a table view."
+  },
+  "ds.tightest": {
+    "message": "Tightest pair: {pair}"
+  },
+  "ds.spacing": {
+    "message": "Spacing"
+  },
+  "ds.radius": {
+    "message": "Radius"
+  },
+  "ds.elevation": {
+    "message": "Elevation"
+  },
+  "ds.motion": {
+    "message": "Motion"
+  },
+  "ds.motionNote": {
+    "message": "Every duration drops to 0 ms when the device asks for reduced motion."
+  },
+  "ds.numerals": {
+    "message": "Numbers and dates"
+  },
+  "ds.plurals": {
+    "message": "Plural rules"
+  },
+  "ds.bidi": {
+    "message": "Mixed-direction text"
+  },
+  "ds.c.buttons": {
+    "message": "Buttons"
+  },
+  "ds.c.forms": {
+    "message": "Form controls"
+  },
+  "ds.c.status": {
+    "message": "Status chips"
+  },
+  "ds.c.cards": {
+    "message": "Cards and KPI tiles"
+  },
+  "ds.c.table": {
+    "message": "Data table"
+  },
+  "ds.c.shell": {
+    "message": "Sidebar and global search"
+  },
+  "ds.c.map": {
+    "message": "Map markers"
+  },
+  "ds.c.dialog": {
+    "message": "Dialog"
+  },
+  "ds.c.toast": {
+    "message": "Toasts"
+  },
+  "ds.c.states": {
+    "message": "Loading, empty, error and offline"
+  },
+  "ds.c.mobileNote": {
+    "message": "Rendered by Flutter golden tests from the same tokens and translations."
+  },
+  "ds.c.mobileMissing": {
+    "message": "Mobile screenshots appear here after running the Flutter golden tests."
+  },
+  "ds.c.dashboardTitle": {
+    "message": "Today at a glance"
+  },
+  "home.greeting": {
+    "message": "Hello, {name}"
+  },
+  "summary.title": {
+    "message": "This month"
+  },
+  "summary.present": {
+    "message": "Days present"
+  },
+  "summary.late": {
+    "message": "Late arrivals"
+  },
+  "summary.absent": {
+    "message": "Days absent"
+  },
+  "summary.leave": {
+    "message": "Leave days"
+  },
+  "summary.short": {
+    "message": "Short days"
+  },
+  "settings.languageToggle": {
+    "message": "ع",
+    "description": "Compact header toggle label: the OTHER language, in its own script"
+  },
+  "settings.switchLanguage": {
+    "message": "Switch to Arabic"
+  },
+  "nav.notifications": {
+    "message": "Notifications"
+  },
+  "auth.title": {
+    "message": "Sign in"
+  },
+  "auth.subtitle": {
+    "message": "Use your employee ID to continue."
+  },
+  "auth.signIn": {
+    "message": "Sign in"
+  },
+  "auth.useCode": {
+    "message": "Sign in with a one-time code"
+  },
+  "auth.usePassword": {
+    "message": "Sign in with password"
+  },
+  "auth.sendCode": {
+    "message": "Send code"
+  },
+  "auth.codeLabel": {
+    "message": "6-digit code"
+  },
+  "auth.codeSent": {
+    "message": "We sent a code to your registered mobile number."
+  },
+  "auth.devCode": {
+    "message": "Development code: {code}"
+  },
+  "auth.forgot": {
+    "message": "Forgot password?"
+  },
+  "auth.resetTitle": {
+    "message": "Reset password"
+  },
+  "auth.resetDone": {
+    "message": "Password updated. Sign in with your new password."
+  },
+  "auth.newPassword": {
+    "message": "New password"
+  },
+  "auth.currentPassword": {
+    "message": "Current password"
+  },
+  "auth.passwordRule": {
+    "message": "At least 10 characters, with letters and numbers."
+  },
+  "auth.changeTitle": {
+    "message": "Create a new password"
+  },
+  "auth.changeBody": {
+    "message": "For your security, set your own password before you continue."
+  },
+  "auth.saveContinue": {
+    "message": "Save and continue"
+  },
+  "auth.signOut": {
+    "message": "Sign out"
+  },
+  "auth.signOutConfirm": {
+    "message": "Sign out of ZONA Sales on this phone?"
+  },
+  "error.INVALID_CREDENTIALS": {
+    "message": "Employee ID or password is incorrect."
+  },
+  "error.ACCOUNT_LOCKED": {
+    "message": "Too many attempts. Try again in a few minutes."
+  },
+  "error.OTP_INVALID": {
+    "message": "The code is invalid or has expired."
+  },
+  "error.OTP_TOO_SOON": {
+    "message": "Wait a minute before requesting another code."
+  },
+  "error.PASSWORD_WEAK": {
+    "message": "Use at least 10 characters with letters and numbers."
+  },
+  "error.PASSWORD_REUSED": {
+    "message": "Choose a password you haven't used here before."
+  },
+  "error.MOBILE_NOT_ALLOWED": {
+    "message": "This account uses the admin portal."
+  },
+  "error.SESSION_ENDED": {
+    "message": "Your session has ended. Please sign in again."
+  },
+  "error.OUTSIDE_GEOFENCE": {
+    "message": "You are {distance} from {site}. Move inside your work area to check in."
+  },
+  "error.ON_LEAVE": {
+    "message": "You are on approved leave today."
+  },
+  "error.ALREADY_CHECKED_IN": {
+    "message": "You have already checked in today."
+  },
+  "error.NOT_CHECKED_IN": {
+    "message": "You are not checked in."
+  },
+  "error.CONSENT_REQUIRED": {
+    "message": "Please accept location sharing first."
+  },
+  "error.LOCATION_PERMISSION": {
+    "message": "Location access is needed to check in."
+  },
+  "error.LOCATION_UNAVAILABLE": {
+    "message": "We couldn't get your location. Move to an open area and try again."
+  },
+  "error.NETWORK": {
+    "message": "You're offline. Check your connection and try again."
+  },
+  "error.OVERLAP": {
+    "message": "You already have a leave request for these dates."
+  },
+  "error.CORRECTION_PENDING": {
+    "message": "A correction for this day is already waiting for review."
+  },
+  "error.MONTH_FINALIZED": {
+    "message": "This month is finalized. Contact your administrator to change it."
+  },
+  "onboarding.consentTitle": {
+    "message": "Location sharing"
+  },
+  "onboarding.consentAccept": {
+    "message": "I agree"
+  },
+  "onboarding.permTitle": {
+    "message": "Allow location access"
+  },
+  "onboarding.permBody": {
+    "message": "ZONA Sales needs “Allow all the time” so your location keeps updating while you're checked in, even when the app is closed. It is never collected after you check out."
+  },
+  "onboarding.permAllow": {
+    "message": "Allow location"
+  },
+  "onboarding.permOpenSettings": {
+    "message": "Open settings"
+  },
+  "onboarding.permAlwaysNeeded": {
+    "message": "In Settings, choose Location → “Allow all the time”."
+  },
+  "onboarding.continue": {
+    "message": "Continue"
+  },
+  "home.locating": {
+    "message": "Getting your location…"
+  },
+  "home.offDay": {
+    "message": "Today is your day off."
+  },
+  "home.holiday": {
+    "message": "Public holiday: {name}"
+  },
+  "home.onLeave": {
+    "message": "You're on approved leave today."
+  },
+  "home.flagged": {
+    "message": "Your check-in was sent to your administrator for review."
+  },
+  "home.trackingTitle": {
+    "message": "Location sharing is ON"
+  },
+  "home.trackingText": {
+    "message": "You're checked in. Sharing stops when you check out."
+  },
+  "home.pending": {
+    "message": "{count, plural, one {# location update waiting to send} other {# location updates waiting to send}}"
+  },
+  "catalogue.all": {
+    "message": "All"
+  },
+  "catalogue.search": {
+    "message": "Search products"
+  },
+  "catalogue.empty": {
+    "message": "No products match your search"
+  },
+  "catalogue.offer": {
+    "message": "Offer"
+  },
+  "catalogue.validUntil": {
+    "message": "Until {date}"
+  },
+  "catalogue.share": {
+    "message": "Share"
+  },
+  "catalogue.shareVia": {
+    "message": "Share via"
+  },
+  "catalogue.whatsapp": {
+    "message": "WhatsApp"
+  },
+  "catalogue.sms": {
+    "message": "SMS"
+  },
+  "catalogue.email": {
+    "message": "Email"
+  },
+  "catalogue.copyLink": {
+    "message": "Copy link"
+  },
+  "catalogue.more": {
+    "message": "More options"
+  },
+  "catalogue.recipient": {
+    "message": "Customer contact (optional)"
+  },
+  "catalogue.shareText": {
+    "message": "{name}\n{link}"
+  },
+  "catalogue.linkCopied": {
+    "message": "Link copied"
+  },
+  "catalogue.shared": {
+    "message": "Shared and logged"
+  },
+  "leave.new": {
+    "message": "New request"
+  },
+  "leave.empty": {
+    "message": "No leave requests yet"
+  },
+  "leave.type": {
+    "message": "Type"
+  },
+  "leave.typeLeave": {
+    "message": "Leave"
+  },
+  "leave.typeOffDay": {
+    "message": "Off day"
+  },
+  "leave.from": {
+    "message": "From"
+  },
+  "leave.to": {
+    "message": "To"
+  },
+  "leave.reason": {
+    "message": "Reason"
+  },
+  "leave.submit": {
+    "message": "Submit request"
+  },
+  "leave.cancelRequest": {
+    "message": "Cancel request"
+  },
+  "leave.statusPending": {
+    "message": "Pending"
+  },
+  "leave.statusApproved": {
+    "message": "Approved"
+  },
+  "leave.statusRejected": {
+    "message": "Rejected"
+  },
+  "leave.statusCancelled": {
+    "message": "Cancelled"
+  },
+  "leave.submitted": {
+    "message": "Request sent to your administrator"
+  },
+  "leave.days": {
+    "message": "{count, plural, one {# day} other {# days}}"
+  },
+  "profile.supervisor": {
+    "message": "Supervisor"
+  },
+  "profile.branch": {
+    "message": "Branch"
+  },
+  "profile.myAttendance": {
+    "message": "My attendance"
+  },
+  "profile.privacy": {
+    "message": "Privacy"
+  },
+  "profile.version": {
+    "message": "Version {version}"
+  },
+  "attendance.requestCorrection": {
+    "message": "Request correction"
+  },
+  "attendance.correctionPending": {
+    "message": "Correction pending"
+  },
+  "attendance.correctionSent": {
+    "message": "Correction request sent"
+  },
+  "attendance.noRecords": {
+    "message": "No attendance records this month"
+  },
+  "attendance.missingCheckout": {
+    "message": "No check-out"
+  },
+  "attendance.correctionReason": {
+    "message": "What should be corrected?"
+  },
+  "notify.checkedIn": {
+    "message": "You checked in"
+  },
+  "notify.checkedOut": {
+    "message": "You checked out"
+  },
+  "notify.checkedOutShort": {
+    "message": "You checked out before the required hours"
+  },
+  "notify.autoCheckedOut": {
+    "message": "You were checked out automatically after the shift limit"
+  },
+  "notify.lateWarning": {
+    "message": "Check in soon to avoid being marked late"
+  },
+  "notify.hoursCompleted": {
+    "message": "You've completed today's required hours"
+  },
+  "notify.geofenceExit": {
+    "message": "You left your work area"
+  },
+  "notify.leaveApproved": {
+    "message": "Your leave request was approved"
+  },
+  "notify.leaveRejected": {
+    "message": "Your leave request was rejected"
+  },
+  "notify.correctionApproved": {
+    "message": "Your correction request was approved"
+  },
+  "notify.correctionRejected": {
+    "message": "Your correction request was rejected"
+  },
+  "notify.fraudFlagged": {
+    "message": "A check-in by {employeeId} needs your review"
+  },
+  "notifications.empty": {
+    "message": "You're all caught up"
+  },
+  "notifications.markAll": {
+    "message": "Mark all as read"
+  },
+  "notify.newContent": {
+    "message": "New in the catalogue: {name}"
+  },
+  "portal.signInTitle": {
+    "message": "Admin portal sign in"
+  },
+  "portal.signInBody": {
+    "message": "For the ZONA administrator. Sales representatives use the ZONA Sales app."
+  },
+  "portal.error.PORTAL_NOT_ALLOWED": {
+    "message": "Sales representatives use the mobile app."
+  },
+  "portal.signedInAs": {
+    "message": "Signed in as {name}"
+  },
+  "portal.role.super_admin": {
+    "message": "Administrator"
+  },
+  "portal.role.hr_admin": {
+    "message": "HR admin"
+  },
+  "portal.role.sales_supervisor": {
+    "message": "Sales supervisor"
+  },
+  "portal.role.sales_rep": {
+    "message": "Sales representative"
+  },
+  "portal.today": {
+    "message": "Today"
+  },
+  "portal.allTeams": {
+    "message": "All teams"
+  },
+  "portal.allStatuses": {
+    "message": "All statuses"
+  },
+  "portal.notCheckedIn": {
+    "message": "Not checked in"
+  },
+  "portal.pendingReviews": {
+    "message": "Suspected check-ins to review"
+  },
+  "portal.pendingLeave": {
+    "message": "Leave requests"
+  },
+  "portal.pendingCorrections": {
+    "message": "Correction requests"
+  },
+  "portal.needsAttention": {
+    "message": "Needs your attention"
+  },
+  "portal.liveNow": {
+    "message": "Live now"
+  },
+  "portal.onDutyCount": {
+    "message": "{count, plural, one {# rep on duty} other {# reps on duty}}"
+  },
+  "portal.noOneOnDuty": {
+    "message": "No one is on duty right now"
+  },
+  "portal.checkedInAt": {
+    "message": "Checked in {time}"
+  },
+  "portal.minutesAgo": {
+    "message": "{count, plural, =0 {just now} one {# min ago} other {# min ago}}"
+  },
+  "portal.trail": {
+    "message": "Today's trail"
+  },
+  "portal.trailPoints": {
+    "message": "{count, plural, one {# point} other {# points}}"
+  },
+  "portal.tabRegister": {
+    "message": "Register"
+  },
+  "portal.tabReviews": {
+    "message": "Suspected check-ins"
+  },
+  "portal.tabCorrections": {
+    "message": "Corrections"
+  },
+  "portal.tabLeave": {
+    "message": "Leave requests"
+  },
+  "portal.details": {
+    "message": "Attendance details"
+  },
+  "portal.statusTrail": {
+    "message": "Status history"
+  },
+  "portal.cause.check_in": {
+    "message": "Checked in"
+  },
+  "portal.cause.check_out": {
+    "message": "Checked out"
+  },
+  "portal.cause.fraud_flagged": {
+    "message": "Flagged automatically"
+  },
+  "portal.cause.review_confirmed": {
+    "message": "Confirmed as fake"
+  },
+  "portal.cause.review_cleared": {
+    "message": "Marked genuine"
+  },
+  "portal.cause.correction_approved": {
+    "message": "Correction approved"
+  },
+  "portal.cause.leave_approved": {
+    "message": "Leave approved"
+  },
+  "portal.cause.leave_cancelled": {
+    "message": "Leave cancelled"
+  },
+  "portal.cause.absent_marked": {
+    "message": "Marked absent"
+  },
+  "portal.cause.month_correction": {
+    "message": "Month-end correction"
+  },
+  "portal.system": {
+    "message": "System"
+  },
+  "portal.signal.mock_location": {
+    "message": "A mock-location app was active on the device"
+  },
+  "portal.signal.gps_network_mismatch": {
+    "message": "GPS and network positions were {distance} apart"
+  },
+  "portal.signal.impossible_speed": {
+    "message": "Moved at {speed} km/h between pings"
+  },
+  "portal.signal.rooted_device": {
+    "message": "Rooted, jailbroken or emulated device"
+  },
+  "portal.signal.outside_geofence": {
+    "message": "{distance} outside the work area"
+  },
+  "portal.noPending": {
+    "message": "Nothing waiting for review"
+  },
+  "portal.requested": {
+    "message": "Requested"
+  },
+  "portal.current": {
+    "message": "Current"
+  },
+  "portal.approveRemark": {
+    "message": "Remark (optional for approval, required to reject)"
+  },
+  "portal.decided": {
+    "message": "Decision saved"
+  },
+  "portal.employeeSaved": {
+    "message": "Employee saved"
+  },
+  "portal.employeeCreated": {
+    "message": "Employee created. Temporary password: {password}"
+  },
+  "portal.editEmployee": {
+    "message": "Edit employee"
+  },
+  "portal.nameEn": {
+    "message": "Name (English)"
+  },
+  "portal.nameAr": {
+    "message": "Name (Arabic)"
+  },
+  "portal.role": {
+    "message": "Role"
+  },
+  "portal.status": {
+    "message": "Status"
+  },
+  "portal.active": {
+    "message": "Active"
+  },
+  "portal.inactive": {
+    "message": "Inactive"
+  },
+  "portal.deactivate": {
+    "message": "Deactivate"
+  },
+  "portal.activate": {
+    "message": "Activate"
+  },
+  "portal.shiftWindow": {
+    "message": "Sign-in window"
+  },
+  "portal.shiftWindowValue": {
+    "message": "{from} – {to}"
+  },
+  "portal.noSupervisor": {
+    "message": "No supervisor"
+  },
+  "portal.products": {
+    "message": "Products and offers"
+  },
+  "portal.newProduct": {
+    "message": "New item"
+  },
+  "portal.editProduct": {
+    "message": "Edit item"
+  },
+  "portal.itemType": {
+    "message": "Type"
+  },
+  "portal.type.product": {
+    "message": "Product"
+  },
+  "portal.type.offer": {
+    "message": "Offer"
+  },
+  "portal.type.promo": {
+    "message": "Promotion"
+  },
+  "portal.category": {
+    "message": "Category"
+  },
+  "portal.descriptionEn": {
+    "message": "Description (English)"
+  },
+  "portal.descriptionAr": {
+    "message": "Description (Arabic)"
+  },
+  "portal.validFrom": {
+    "message": "Valid from"
+  },
+  "portal.validTo": {
+    "message": "Valid until"
+  },
+  "portal.publish": {
+    "message": "Publish"
+  },
+  "portal.unpublish": {
+    "message": "Move to draft"
+  },
+  "portal.archive": {
+    "message": "Archive"
+  },
+  "portal.content.draft": {
+    "message": "Draft"
+  },
+  "portal.content.published": {
+    "message": "Published"
+  },
+  "portal.content.archived": {
+    "message": "Archived"
+  },
+  "portal.shares": {
+    "message": "Shares"
+  },
+  "portal.attendanceRules": {
+    "message": "Attendance rules"
+  },
+  "portal.rulesBody": {
+    "message": "Rules are effective-dated: a change applies from its start date and history is kept for audits."
+  },
+  "portal.newRule": {
+    "message": "New rule"
+  },
+  "portal.scope": {
+    "message": "Applies to"
+  },
+  "portal.scopeGlobal": {
+    "message": "Everyone"
+  },
+  "portal.requiredHours": {
+    "message": "Required hours"
+  },
+  "portal.grace": {
+    "message": "Grace after latest start"
+  },
+  "portal.pingInterval": {
+    "message": "Location update interval"
+  },
+  "portal.outsideAction": {
+    "message": "Outside the work area"
+  },
+  "portal.outside.flag": {
+    "message": "Flag for review"
+  },
+  "portal.outside.block": {
+    "message": "Block check-in"
+  },
+  "portal.effectiveFrom": {
+    "message": "Effective from"
+  },
+  "portal.minutesValue": {
+    "message": "{count, plural, one {# minute} other {# minutes}}"
+  },
+  "portal.geofences": {
+    "message": "Work areas (geofences)"
+  },
+  "portal.newGeofence": {
+    "message": "New work area"
+  },
+  "portal.geofenceHint": {
+    "message": "Click the map to place the centre, then set the radius."
+  },
+  "portal.radius": {
+    "message": "Radius"
+  },
+  "portal.assignedTo": {
+    "message": "Assigned to"
+  },
+  "portal.assign": {
+    "message": "Assign"
+  },
+  "portal.assignBranch": {
+    "message": "Branch"
+  },
+  "portal.assignTeam": {
+    "message": "Team"
+  },
+  "portal.assignEmployee": {
+    "message": "Employee"
+  },
+  "portal.endAssignment": {
+    "message": "Remove"
+  },
+  "portal.unassigned": {
+    "message": "Not assigned"
+  },
+  "portal.sharesReport": {
+    "message": "Marketing activity"
+  },
+  "portal.byProduct": {
+    "message": "By product"
+  },
+  "portal.byEmployee": {
+    "message": "By employee"
+  },
+  "portal.byChannel": {
+    "message": "By channel"
+  },
+  "portal.channel.whatsapp": {
+    "message": "WhatsApp"
+  },
+  "portal.channel.sms": {
+    "message": "SMS"
+  },
+  "portal.channel.email": {
+    "message": "Email"
+  },
+  "portal.channel.link": {
+    "message": "Link"
+  },
+  "portal.channel.other": {
+    "message": "Other"
+  },
+  "portal.noData": {
+    "message": "No data for this period"
+  },
+  "portal.from": {
+    "message": "From"
+  },
+  "portal.to": {
+    "message": "To"
+  },
+  "portal.monthlySummary": {
+    "message": "Monthly attendance summary"
+  },
+  "portal.comingPhase5": {
+    "message": "Arrives in Phase 5: compute, review, finalize and export."
+  },
+  "portal.signOut": {
+    "message": "Sign out"
+  },
+  "portal.minutesShort": {
+    "message": "{count} min"
+  },
+  "portal.tabSummary": {
+    "message": "Monthly summary"
+  },
+  "portal.month": {
+    "message": "Month"
+  },
+  "portal.compute": {
+    "message": "Recalculate"
+  },
+  "portal.finalize": {
+    "message": "Finalize month"
+  },
+  "portal.reopen": {
+    "message": "Re-open month"
+  },
+  "portal.reopenReason": {
+    "message": "Reason for re-opening"
+  },
+  "portal.period.open": {
+    "message": "Open"
+  },
+  "portal.period.draft": {
+    "message": "Draft"
+  },
+  "portal.period.finalized": {
+    "message": "Finalized"
+  },
+  "portal.period.reopened": {
+    "message": "Re-opened"
+  },
+  "portal.blockedSuspected": {
+    "message": "{count, plural, one {# suspected check-in must be reviewed before finalizing} other {# suspected check-ins must be reviewed before finalizing}}"
+  },
+  "portal.exportCsv": {
+    "message": "CSV"
+  },
+  "portal.exportExcel": {
+    "message": "Excel"
+  },
+  "portal.exportPdf": {
+    "message": "Print / PDF"
+  },
+  "portal.version": {
+    "message": "Version"
+  },
+  "portal.correctDay": {
+    "message": "Correct"
+  },
+  "portal.newStatus": {
+    "message": "New status"
+  },
+  "portal.correctionReason": {
+    "message": "Reason (required)"
+  },
+  "portal.finalizedNote": {
+    "message": "This month is locked. HRMS can now read these counts."
+  },
+  "portal.notComputed": {
+    "message": "Not calculated yet. Select Recalculate."
+  },
+  "portal.computedAt": {
+    "message": "Calculated {time}"
+  },
+  "portal.daysOf": {
+    "message": "Days for {name}"
+  },
+  "error.SUSPECTED_PENDING": {
+    "message": "Review every suspected check-in in this month first."
+  },
+  "error.MONTH_NOT_ENDED": {
+    "message": "A month can be finalized only after it ends."
+  },
+  "error.USE_REVIEW": {
+    "message": "Decide suspected or confirmed fakes through the review."
+  },
+  "error.CHECK_IN_REQUIRED": {
+    "message": "A day without a check-in can only be marked absent."
+  },
+  "error.NOT_FINALIZED": {
+    "message": "This month is not finalized."
+  },
+  "portal.org": {
+    "message": "Organisation"
+  },
+  "portal.branches": {
+    "message": "Branches"
+  },
+  "portal.teams": {
+    "message": "Teams"
+  },
+  "portal.newBranch": {
+    "message": "New branch"
+  },
+  "portal.newTeam": {
+    "message": "New team"
+  },
+  "portal.code": {
+    "message": "Code"
+  },
+  "portal.edit": {
+    "message": "Edit"
+  },
+  "portal.holidays": {
+    "message": "Holidays and company off days"
+  },
+  "portal.holidaysBody": {
+    "message": "Holidays are excluded from absence counts. Add Eid dates each year once they are announced."
+  },
+  "portal.newHoliday": {
+    "message": "Add holiday"
+  },
+  "portal.date": {
+    "message": "Date"
+  },
+  "portal.allBranches": {
+    "message": "All branches"
+  },
+  "portal.kind.public_holiday": {
+    "message": "Public holiday"
+  },
+  "portal.kind.company_off_day": {
+    "message": "Company off day"
+  },
+  "portal.resetPassword": {
+    "message": "Reset password"
+  },
+  "portal.tempPasswordTitle": {
+    "message": "Temporary password"
+  },
+  "portal.tempPasswordBody": {
+    "message": "Give this to {name} privately. They must change it at their next sign-in. It will not be shown again."
+  },
+  "portal.copy": {
+    "message": "Copy"
+  },
+  "portal.copied": {
+    "message": "Copied"
+  },
+  "portal.saved": {
+    "message": "Saved"
+  },
+  "error.HOLIDAY_IN_PAST": {
+    "message": "Past holidays already affect recorded attendance and can't be removed."
+  },
+  "error.EMPLOYEE_EXISTS": {
+    "message": "An employee with this ID already exists."
+  },
+  "error.DUPLICATE": {
+    "message": "This already exists."
+  },
+  "auth.forgotAdmin": {
+    "message": "Forgot your password? Ask your administrator to reset it."
+  },
+  "error.OTP_UNAVAILABLE": {
+    "message": "One-time codes aren't available yet. Ask an administrator to reset your password."
+  },
+  "portal.employeesBody": {
+    "message": "Every account here is a sales rep. Only you create accounts and passwords — reps can't sign themselves up."
+  },
+  "cred.title": {
+    "message": "Sign-in details"
+  },
+  "cred.body": {
+    "message": "Give these to {name} privately. They won't be shown again."
+  },
+  "cred.mustChange": {
+    "message": "They'll choose their own password at first sign-in."
+  },
+  "cred.keep": {
+    "message": "They'll keep using this password until you reset it."
+  },
+  "cred.generate": {
+    "message": "Generate"
+  },
+  "cred.askChange": {
+    "message": "Ask them to choose a new password at first sign-in"
+  },
+  "cred.resetTitle": {
+    "message": "Reset password for {name}"
+  },
+  "cred.resetBody": {
+    "message": "Their current sign-ins end immediately."
+  },
+  "error.ADMIN_REQUIRED": {
+    "message": "The administrator account can't be deactivated."
+  },
+  "error.NOT_A_REP": {
+    "message": "Targets are for sales representatives only."
+  },
+  "error.NOT_ON_DUTY": {
+    "message": "Check in first — visits and orders are logged while you're on duty."
+  },
+  "error.INVALID_MONTH": {
+    "message": "Choose a valid month."
+  },
+  "nav.targets": {
+    "message": "Sales targets"
+  },
+  "targets.body": {
+    "message": "Set monthly visit and order targets. Reps log each visit and order in the ZONA Sales app while checked in."
+  },
+  "targets.setAll": {
+    "message": "Set for all reps"
+  },
+  "targets.setSelected": {
+    "message": "Set target for selected"
+  },
+  "targets.set": {
+    "message": "Set target"
+  },
+  "targets.setFor": {
+    "message": "Target for {name}"
+  },
+  "targets.remove": {
+    "message": "Remove target"
+  },
+  "targets.visits": {
+    "message": "Visits"
+  },
+  "targets.orders": {
+    "message": "Orders"
+  },
+  "targets.visitsTarget": {
+    "message": "Visits target"
+  },
+  "targets.ordersTarget": {
+    "message": "Orders target"
+  },
+  "targets.note": {
+    "message": "Note for the rep"
+  },
+  "targets.overwrite": {
+    "message": "Replace targets already set for this month"
+  },
+  "targets.progress": {
+    "message": "{done} of {target}"
+  },
+  "targets.noTarget": {
+    "message": "No target"
+  },
+  "targets.applied": {
+    "message": "Targets set: {applied}. Already set and kept: {skipped}."
+  },
+  "targets.saved": {
+    "message": "Target saved"
+  },
+  "targets.tabProgress": {
+    "message": "Progress"
+  },
+  "targets.tabLog": {
+    "message": "Visits and orders log"
+  },
+  "targets.kpiVisits": {
+    "message": "Visits this month"
+  },
+  "targets.kpiOrders": {
+    "message": "Orders this month"
+  },
+  "targets.kpiNoTarget": {
+    "message": "Reps without a target"
+  },
+  "targets.kind.visit": {
+    "message": "Visit"
+  },
+  "targets.kind.order": {
+    "message": "Order"
+  },
+  "targets.customer": {
+    "message": "Customer"
+  },
+  "targets.when": {
+    "message": "Logged at"
+  },
+  "targets.type": {
+    "message": "Type"
+  },
+  "targets.void": {
+    "message": "Void entry"
+  },
+  "targets.voidReason": {
+    "message": "Reason"
+  },
+  "targets.voided": {
+    "message": "Voided"
+  },
+  "targets.voidTitle": {
+    "message": "Void this entry?"
+  },
+  "targets.voidBody": {
+    "message": "It stops counting toward the target. The entry stays in the log with your reason."
+  },
+  "targets.emptyLog": {
+    "message": "No visits or orders logged this month"
+  },
+  "targets.emptyLogBody": {
+    "message": "Entries appear here as reps log them in the app."
+  },
+  "targets.selectedCount": {
+    "message": "{count} selected reps"
+  },
+  "sales.title": {
+    "message": "My target"
+  },
+  "sales.monthTarget": {
+    "message": "Target for {month}"
+  },
+  "sales.none": {
+    "message": "No target set for this month yet"
+  },
+  "sales.noneBody": {
+    "message": "Your administrator sets monthly targets. You can still log visits and orders."
+  },
+  "sales.logVisit": {
+    "message": "Log a visit"
+  },
+  "sales.logOrder": {
+    "message": "Log an order"
+  },
+  "sales.customerHint": {
+    "message": "Shop or customer name"
+  },
+  "sales.noteHint": {
+    "message": "What happened? (optional)"
+  },
+  "sales.logged": {
+    "message": "Saved"
+  },
+  "sales.checkInFirst": {
+    "message": "Check in to log visits and orders."
+  },
+  "sales.recent": {
+    "message": "This month"
+  },
+  "sales.empty": {
+    "message": "Nothing logged yet this month"
+  },
+  "sales.remaining": {
+    "message": "{count} to go"
+  },
+  "sales.reached": {
+    "message": "Target reached"
+  },
+  "sales.viewAll": {
+    "message": "View all"
+  },
+  "notify.targetSet": {
+    "message": "Your sales target for {month} has been set"
+  },
+  "demo.badge": {
+    "message": "Live demo"
+  },
+  "demo.banner": {
+    "message": "Live demo — simulated reps are working right now; data resets every night."
+  },
+  "demo.getIt": {
+    "message": "Get SFMS for your team"
+  },
+  "demo.source": {
+    "message": "Source on GitHub"
+  },
+  "demo.loginTitle": {
+    "message": "Try the live demo"
+  },
+  "demo.loginBody": {
+    "message": "Explore as the administrator. Simulated reps are checking in, driving routes and logging visits right now — open the live map."
+  },
+  "demo.signIn": {
+    "message": "Enter the demo"
+  },
+  "demo.credentials": {
+    "message": "Administrator {id} · password {password}"
+  },
+  "demo.builtBy": {
+    "message": "Built by Muhammad Abdullah Waseem"
+  },
+  "demo.appHint": {
+    "message": "Demo: sign in as {id} with password {password}. Check-ins from outside the Riyadh office are flagged for review — that's the fraud check at work."
+  },
+  "demo.useDemo": {
+    "message": "Fill in demo sign-in"
+  },
+  "error.DEMO_PROTECTED": {
+    "message": "Demo accounts are shared by every visitor, so they can't be changed. Create your own employee to try this."
+  }
+}

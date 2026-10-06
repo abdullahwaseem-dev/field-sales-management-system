@@ -1,0 +1,33 @@
+node_modules/
+dist/
+!packages/tokens/dist/
+!packages/i18n/dist/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+# Flutter
+apps/mobile/.dart_tool/
+apps/mobile/build/
+apps/mobile/.flutter-plugins*
+apps/mobile/ios/Pods/
+apps/mobile/ios/.symlinks/
+apps/mobile/android/.gradle/
+apps/mobile/android/local.properties
+apps/mobile/test/**/failures/
+apps/portal/public/favicon*
+.vercel
+apps/mobile/android/key.properties
+apps/mobile/android/*.jks
+release/
+# Client requirements documents (private) and local tooling state
+SFMS-SRS.md
+SRS_Sales_Force_Management_System.pdf
+supabase/.temp/
+.vercel/
+release/
+# Per-environment app config (production API URL stays private; demo.json is public)
+apps/mobile/config/*.json
+!apps/mobile/config/demo.json
+*.local.md

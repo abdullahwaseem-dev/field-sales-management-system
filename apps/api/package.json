@@ -1,0 +1,36 @@
+{
+  "name": "@sfms/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SFMS REST API (NestJS) — auth, attendance, location, fraud checks, leave, catalogue, jobs.",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json && node --enable-source-maps --env-file-if-exists=../../.env dist/main.js",
+    "start": "node --enable-source-maps dist/main.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "db:types": "kysely-codegen --env-file ../../.env --dialect postgres --out-file src/db/schema.ts --date-parser string --numeric-parser number --exclude-pattern '(spatial_ref_sys|location_ping_*)'",
+    "test": "tsc -p tsconfig.build.json && NODE_ENV=test node --enable-source-maps --env-file-if-exists=../../.env --test --test-concurrency=1 'dist/test/**/*.test.js'"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.0",
+    "@nestjs/core": "^11.1.0",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/platform-express": "^11.1.0",
+    "@nestjs/throttler": "^6.4.0",
+    "@node-rs/argon2": "^2.0.2",
+    "exceljs": "^4.4.0",
+    "helmet": "^8.1.0",
+    "kysely": "^0.28.17",
+    "pg": "^8.23.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.15.0",
+    "kysely-codegen": "^0.20.0",
+    "typescript": "~5.9.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": ["SFMS", "HRMS", "ZONA", "geofence", "geofences", "geofencing", "smallint", "timestamptz", "jsonb", "PostGIS", "Kysely", "Umm", "umalqura", "Hijri", "PDPL", "Tajawal", "fontsource", "Radix", "lucide", "OKLCH", "uuidv7", "pgboss", "Riverpod", "Drift", "ARB", "bidi", "Transistorsoft", "zona", "sfms"],
+  "ignorePaths": ["**/*.arb", "**/messages/ar.json", "**/dist/**"]
+}

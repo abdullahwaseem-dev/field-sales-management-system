@@ -1,0 +1,1609 @@
+{
+  "@@locale": "en",
+  "@@x-generated": "packages/i18n/scripts/build.mjs — edit packages/i18n/messages instead",
+  "appName": "ZONA Sales",
+  "@appName": {
+    "description": "Short product name (app launcher, browser tab)"
+  },
+  "appPortal": "Admin Portal",
+  "@appPortal": {},
+  "appBrandLabel": "ZONA",
+  "@appBrandLabel": {
+    "description": "Accessible name for the logo image"
+  },
+  "navDashboard": "Dashboard",
+  "@navDashboard": {},
+  "navEmployees": "Employees",
+  "@navEmployees": {},
+  "navAttendance": "Attendance",
+  "@navAttendance": {},
+  "navLiveMap": "Live map",
+  "@navLiveMap": {},
+  "navMarketing": "Marketing",
+  "@navMarketing": {},
+  "navReports": "Reports",
+  "@navReports": {},
+  "navSettings": "Settings",
+  "@navSettings": {},
+  "navCollapse": "Collapse sidebar",
+  "@navCollapse": {},
+  "navExpand": "Expand sidebar",
+  "@navExpand": {},
+  "navMain": "Main navigation",
+  "@navMain": {},
+  "navSearchPlaceholder": "Search employees, IDs, products…",
+  "@navSearchPlaceholder": {},
+  "tabHome": "Home",
+  "@tabHome": {
+    "description": "Mobile bottom tab"
+  },
+  "tabCatalogue": "Catalogue",
+  "@tabCatalogue": {
+    "description": "Mobile bottom tab"
+  },
+  "tabLeave": "Leave",
+  "@tabLeave": {
+    "description": "Mobile bottom tab"
+  },
+  "tabProfile": "Profile",
+  "@tabProfile": {
+    "description": "Mobile bottom tab"
+  },
+  "statusPresent": "Present",
+  "@statusPresent": {},
+  "statusLate": "Late",
+  "@statusLate": {},
+  "statusAbsent": "Absent",
+  "@statusAbsent": {},
+  "statusSuspectedFake": "Suspected fake",
+  "@statusSuspectedFake": {
+    "description": "Auto-flagged by fraud detection, waiting for human review"
+  },
+  "statusConfirmedFake": "Confirmed fake",
+  "@statusConfirmedFake": {
+    "description": "A reviewer confirmed the check-in was fraudulent"
+  },
+  "statusOnLeave": "On leave",
+  "@statusOnLeave": {},
+  "statusShortBy": "Short by {duration}",
+  "@statusShortBy": {
+    "description": "Worked less than the required daily hours",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "durationHm": "{hours}h {minutes}m",
+  "@durationHm": {
+    "description": "Hours and minutes, e.g. 7h 40m",
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "durationH": "{hours}h",
+  "@durationH": {
+    "description": "Whole hours, e.g. 8h",
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "dayNotCheckedIn": "Not checked in",
+  "@dayNotCheckedIn": {},
+  "dayOnDuty": "On duty",
+  "@dayOnDuty": {},
+  "dayOnBreak": "On break",
+  "@dayOnBreak": {},
+  "dayCheckedOut": "Checked out",
+  "@dayCheckedOut": {},
+  "heroCheckIn": "Check in",
+  "@heroCheckIn": {},
+  "heroCheckOut": "Check out",
+  "@heroCheckOut": {},
+  "heroCheckInHint": "Tap to check in at {site}",
+  "@heroCheckInHint": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "heroWorkedOf": "{worked} of {required}",
+  "@heroWorkedOf": {
+    "description": "Worked time out of the required daily time",
+    "placeholders": {
+      "worked": {
+        "type": "String"
+      },
+      "required": {
+        "type": "String"
+      }
+    }
+  },
+  "heroRemaining": "{duration} to go",
+  "@heroRemaining": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "heroComplete": "Required hours complete",
+  "@heroComplete": {},
+  "heroCheckedInAt": "Checked in at {time}",
+  "@heroCheckedInAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "heroLocationOn": "Location sharing is ON",
+  "@heroLocationOn": {},
+  "heroLocationOnHint": "Turns off automatically when you check out.",
+  "@heroLocationOnHint": {},
+  "heroEarlyTitle": "Check out early?",
+  "@heroEarlyTitle": {},
+  "heroEarlyBody": "You have worked {worked}. The required day is {required}, so {remaining} is left. Your day will be marked as short.",
+  "@heroEarlyBody": {
+    "placeholders": {
+      "worked": {
+        "type": "String"
+      },
+      "required": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "heroEarlyConfirm": "Check out anyway",
+  "@heroEarlyConfirm": {},
+  "heroKeepWorking": "Keep working",
+  "@heroKeepWorking": {},
+  "actionSave": "Save",
+  "@actionSave": {},
+  "actionCancel": "Cancel",
+  "@actionCancel": {},
+  "actionConfirm": "Confirm",
+  "@actionConfirm": {},
+  "actionRetry": "Try again",
+  "@actionRetry": {},
+  "actionClose": "Close",
+  "@actionClose": {},
+  "actionSearch": "Search",
+  "@actionSearch": {},
+  "actionFilter": "Filter",
+  "@actionFilter": {},
+  "actionColumns": "Columns",
+  "@actionColumns": {},
+  "actionExport": "Export",
+  "@actionExport": {},
+  "actionActions": "Actions",
+  "@actionActions": {},
+  "actionViewDetails": "View details",
+  "@actionViewDetails": {},
+  "actionViewTrail": "View location trail",
+  "@actionViewTrail": {},
+  "actionReview": "Review",
+  "@actionReview": {},
+  "actionApprove": "Approve",
+  "@actionApprove": {},
+  "actionReject": "Reject",
+  "@actionReject": {},
+  "actionDelete": "Delete",
+  "@actionDelete": {},
+  "actionSelectAll": "Select all rows",
+  "@actionSelectAll": {},
+  "actionSelectRow": "Select {name}",
+  "@actionSelectRow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "actionShowMore": "Show more",
+  "@actionShowMore": {},
+  "actionNewEmployee": "New employee",
+  "@actionNewEmployee": {},
+  "actionDismiss": "Dismiss notification",
+  "@actionDismiss": {},
+  "stateLoading": "Loading…",
+  "@stateLoading": {},
+  "stateErrorTitle": "Something went wrong",
+  "@stateErrorTitle": {},
+  "stateErrorBody": "We couldn't load this data. Check your connection and try again.",
+  "@stateErrorBody": {},
+  "stateEmptyReviewTitle": "No suspected check-ins",
+  "@stateEmptyReviewTitle": {},
+  "stateEmptyReviewBody": "Flagged check-ins will appear here for review.",
+  "@stateEmptyReviewBody": {},
+  "stateOfflineTitle": "You're offline",
+  "@stateOfflineTitle": {},
+  "stateOfflineBody": "Showing data from {time}. We'll refresh when you reconnect.",
+  "@stateOfflineBody": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "stateNoResults": "No employees match your filters",
+  "@stateNoResults": {},
+  "stateNoResultsBody": "Try a different name, employee ID or team.",
+  "@stateNoResultsBody": {},
+  "fieldEmail": "Work email",
+  "@fieldEmail": {},
+  "fieldPhone": "Mobile number",
+  "@fieldPhone": {},
+  "fieldEmployeeId": "Employee ID",
+  "@fieldEmployeeId": {},
+  "fieldPassword": "Password",
+  "@fieldPassword": {},
+  "fieldTeam": "Team",
+  "@fieldTeam": {},
+  "fieldTeamPlaceholder": "Select a team",
+  "@fieldTeamPlaceholder": {},
+  "fieldRemark": "Review remark",
+  "@fieldRemark": {},
+  "fieldRemarkHint": "Required. Explain the evidence behind your decision.",
+  "@fieldRemarkHint": {},
+  "fieldOptional": "Optional",
+  "@fieldOptional": {},
+  "fieldRequired": "Required",
+  "@fieldRequired": {},
+  "fieldErrorRequired": "This field is required",
+  "@fieldErrorRequired": {},
+  "fieldErrorPhone": "Enter a valid Saudi mobile number, e.g. 05XXXXXXXX",
+  "@fieldErrorPhone": {},
+  "fieldPhoneHint": "We send one-time login codes to this number.",
+  "@fieldPhoneHint": {},
+  "fieldSearchLabel": "Search the register",
+  "@fieldSearchLabel": {},
+  "teamRiyadhNorth": "Riyadh North",
+  "@teamRiyadhNorth": {},
+  "teamJeddahCentral": "Jeddah Central",
+  "@teamJeddahCentral": {},
+  "teamDammamEast": "Dammam East",
+  "@teamDammamEast": {},
+  "tableEmployee": "Employee",
+  "@tableEmployee": {},
+  "tableEmployeeId": "Employee ID",
+  "@tableEmployeeId": {},
+  "tableTeam": "Team",
+  "@tableTeam": {},
+  "tableCheckIn": "Check-in",
+  "@tableCheckIn": {},
+  "tableCheckOut": "Check-out",
+  "@tableCheckOut": {},
+  "tableWorked": "Worked",
+  "@tableWorked": {},
+  "tableStatus": "Status",
+  "@tableStatus": {},
+  "tableSelected": "{count, plural, one {{count} selected} other {{count} selected}}",
+  "@tableSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tableRows": "{count, plural, one {{count} employee} other {{count} employees}}",
+  "@tableRows": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tableSortAsc": "Sorted ascending",
+  "@tableSortAsc": {},
+  "tableSortDesc": "Sorted descending",
+  "@tableSortDesc": {},
+  "tableNotSorted": "Not sorted. Activate to sort.",
+  "@tableNotSorted": {},
+  "tableCaption": "Attendance register for {date}",
+  "@tableCaption": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewTitle": "Review suspected fake check-in",
+  "@reviewTitle": {},
+  "reviewEvidence": "Evidence",
+  "@reviewEvidence": {},
+  "reviewSignalMock": "A mock-location app was active on the device",
+  "@reviewSignalMock": {},
+  "reviewSignalMismatch": "GPS and network locations were {distance} apart",
+  "@reviewSignalMismatch": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewSignalSpeed": "Moved {distance} in {minutes, plural, one {{minutes} minute} other {{minutes} minutes}} — faster than possible by road",
+  "@reviewSignalSpeed": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewConfirmFake": "Confirm as fake",
+  "@reviewConfirmFake": {},
+  "reviewMarkGenuine": "Mark as genuine",
+  "@reviewMarkGenuine": {},
+  "reviewAuditNote": "Your decision is logged with your name. To change it later, re-open the month.",
+  "@reviewAuditNote": {},
+  "toastCheckedIn": "Checked in at {time}",
+  "@toastCheckedIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "toastCheckedInBody": "Location sharing stays on until you check out.",
+  "@toastCheckedInBody": {},
+  "toastLeaveApproved": "Leave approved",
+  "@toastLeaveApproved": {},
+  "toastLeaveApprovedBody": "{name} is on leave {range}.",
+  "@toastLeaveApprovedBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "toastOfflineQueued": "{count, plural, one {{count} location update is saved and will be sent when you're back online.} other {{count} location updates are saved and will be sent when you're back online.}}",
+  "@toastOfflineQueued": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toastGeofenceExit": "You left your work area",
+  "@toastGeofenceExit": {},
+  "toastGeofenceExitBody": "Your administrator has been notified. Location sharing continues while you're on duty.",
+  "@toastGeofenceExitBody": {},
+  "toastSaveFailed": "Changes not saved",
+  "@toastSaveFailed": {},
+  "kpiOnDuty": "On duty now",
+  "@kpiOnDuty": {},
+  "kpiNotCheckedIn": "Not checked in",
+  "@kpiNotCheckedIn": {},
+  "kpiLate": "Late today",
+  "@kpiLate": {},
+  "kpiSuspected": "Suspected fake today",
+  "@kpiSuspected": {},
+  "kpiVsYesterday": "{delta} vs yesterday",
+  "@kpiVsYesterday": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "kpiOfTeam": "of {total} scheduled",
+  "@kpiOfTeam": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "mapMarker": "{name}, {initials}, {status}, last update {time}",
+  "@mapMarker": {
+    "description": "Map marker accessible name. Must contain the visible initials (WCAG 2.5.3); avoid parentheses, which some checkers strip.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "initials": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "mapCluster": "{count, plural, one {{count} employee in this area} other {{count} employees in this area}}",
+  "@mapCluster": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mapLegend": "Map legend",
+  "@mapLegend": {},
+  "mapLastUpdate": "Updated {time}",
+  "@mapLastUpdate": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTheme": "Theme",
+  "@settingsTheme": {},
+  "settingsThemeSystem": "System",
+  "@settingsThemeSystem": {},
+  "settingsThemeLight": "Light",
+  "@settingsThemeLight": {},
+  "settingsThemeDark": "Dark",
+  "@settingsThemeDark": {},
+  "settingsLanguage": "Language",
+  "@settingsLanguage": {},
+  "settingsLanguageEn": "English",
+  "@settingsLanguageEn": {
+    "description": "Always shown in its own language"
+  },
+  "settingsLanguageAr": "العربية",
+  "@settingsLanguageAr": {
+    "description": "Always shown in its own language"
+  },
+  "settingsDigits": "Numbers",
+  "@settingsDigits": {},
+  "settingsDigitsWestern": "0-9",
+  "@settingsDigitsWestern": {},
+  "settingsDigitsArabic": "٠-٩",
+  "@settingsDigitsArabic": {},
+  "settingsHijri": "Show Hijri date",
+  "@settingsHijri": {},
+  "dsTitle": "Design system",
+  "@dsTitle": {},
+  "dsSubtitle": "Phase 0 review: every core component in English and Arabic, light and dark.",
+  "@dsSubtitle": {},
+  "dsInterimLogo": "Interim logo: extracted from the guidelines sheet at native resolution. Final assets need the vector masters.",
+  "@dsInterimLogo": {},
+  "dsBrand": "Brand",
+  "@dsBrand": {},
+  "dsColor": "Colour",
+  "@dsColor": {},
+  "dsTypography": "Typography",
+  "@dsTypography": {},
+  "dsFoundations": "Spacing, radius, elevation & motion",
+  "@dsFoundations": {},
+  "dsComponents": "Components",
+  "@dsComponents": {},
+  "dsMobile": "Mobile components (Flutter)",
+  "@dsMobile": {},
+  "dsContrast": "{count, plural, one {{count} contrast pair passes WCAG AA} other {{count} contrast pairs pass WCAG AA}}",
+  "@dsContrast": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dsPreferences": "Preferences",
+  "@dsPreferences": {},
+  "dsComboEnLight": "English · Light",
+  "@dsComboEnLight": {},
+  "dsComboEnDark": "English · Dark",
+  "@dsComboEnDark": {},
+  "dsComboArLight": "Arabic · Light",
+  "@dsComboArLight": {},
+  "dsComboArDark": "Arabic · Dark",
+  "@dsComboArDark": {},
+  "dsSampleName": "Faisal Al-Harbi",
+  "@dsSampleName": {
+    "description": "Sample employee name"
+  },
+  "dsSampleParagraph": "Sales representatives check in once per day from an approved site. Location sharing runs only while they are on duty and stops at check-out.",
+  "@dsSampleParagraph": {},
+  "dsSampleBidi": "Employee {id} ({email}) checked in from {phone}.",
+  "@dsSampleBidi": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "email": {
+        "type": "String"
+      },
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "dsSamplePlural": "{count, plural, one {{count} visit today} other {{count} visits today}}",
+  "@dsSamplePlural": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dsSampleDateGregorian": "Gregorian",
+  "@dsSampleDateGregorian": {},
+  "dsSampleDateHijri": "Hijri (Umm al-Qura)",
+  "@dsSampleDateHijri": {},
+  "dsSampleSite": "Olaya branch",
+  "@dsSampleSite": {},
+  "dsSkip": "Skip to content",
+  "@dsSkip": {},
+  "dsTryIt": "Try it",
+  "@dsTryIt": {},
+  "dsScales": "Brand scales",
+  "@dsScales": {},
+  "dsRoles": "Semantic roles",
+  "@dsRoles": {},
+  "dsStatusTokens": "Attendance statuses",
+  "@dsStatusTokens": {},
+  "dsChart": "Chart palette",
+  "@dsChart": {},
+  "dsChartNote": "Validated for colour-blind separation in both themes. On light backgrounds, slots 3 to 5 need direct labels or a table view.",
+  "@dsChartNote": {},
+  "dsTightest": "Tightest pair: {pair}",
+  "@dsTightest": {
+    "placeholders": {
+      "pair": {
+        "type": "String"
+      }
+    }
+  },
+  "dsSpacing": "Spacing",
+  "@dsSpacing": {},
+  "dsRadius": "Radius",
+  "@dsRadius": {},
+  "dsElevation": "Elevation",
+  "@dsElevation": {},
+  "dsMotion": "Motion",
+  "@dsMotion": {},
+  "dsMotionNote": "Every duration drops to 0 ms when the device asks for reduced motion.",
+  "@dsMotionNote": {},
+  "dsNumerals": "Numbers and dates",
+  "@dsNumerals": {},
+  "dsPlurals": "Plural rules",
+  "@dsPlurals": {},
+  "dsBidi": "Mixed-direction text",
+  "@dsBidi": {},
+  "dsCButtons": "Buttons",
+  "@dsCButtons": {},
+  "dsCForms": "Form controls",
+  "@dsCForms": {},
+  "dsCStatus": "Status chips",
+  "@dsCStatus": {},
+  "dsCCards": "Cards and KPI tiles",
+  "@dsCCards": {},
+  "dsCTable": "Data table",
+  "@dsCTable": {},
+  "dsCShell": "Sidebar and global search",
+  "@dsCShell": {},
+  "dsCMap": "Map markers",
+  "@dsCMap": {},
+  "dsCDialog": "Dialog",
+  "@dsCDialog": {},
+  "dsCToast": "Toasts",
+  "@dsCToast": {},
+  "dsCStates": "Loading, empty, error and offline",
+  "@dsCStates": {},
+  "dsCMobileNote": "Rendered by Flutter golden tests from the same tokens and translations.",
+  "@dsCMobileNote": {},
+  "dsCMobileMissing": "Mobile screenshots appear here after running the Flutter golden tests.",
+  "@dsCMobileMissing": {},
+  "dsCDashboardTitle": "Today at a glance",
+  "@dsCDashboardTitle": {},
+  "homeGreeting": "Hello, {name}",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "summaryTitle": "This month",
+  "@summaryTitle": {},
+  "summaryPresent": "Days present",
+  "@summaryPresent": {},
+  "summaryLate": "Late arrivals",
+  "@summaryLate": {},
+  "summaryAbsent": "Days absent",
+  "@summaryAbsent": {},
+  "summaryLeave": "Leave days",
+  "@summaryLeave": {},
+  "summaryShort": "Short days",
+  "@summaryShort": {},
+  "settingsLanguageToggle": "ع",
+  "@settingsLanguageToggle": {
+    "description": "Compact header toggle label: the OTHER language, in its own script"
+  },
+  "settingsSwitchLanguage": "Switch to Arabic",
+  "@settingsSwitchLanguage": {},
+  "navNotifications": "Notifications",
+  "@navNotifications": {},
+  "authTitle": "Sign in",
+  "@authTitle": {},
+  "authSubtitle": "Use your employee ID to continue.",
+  "@authSubtitle": {},
+  "authSignIn": "Sign in",
+  "@authSignIn": {},
+  "authUseCode": "Sign in with a one-time code",
+  "@authUseCode": {},
+  "authUsePassword": "Sign in with password",
+  "@authUsePassword": {},
+  "authSendCode": "Send code",
+  "@authSendCode": {},
+  "authCodeLabel": "6-digit code",
+  "@authCodeLabel": {},
+  "authCodeSent": "We sent a code to your registered mobile number.",
+  "@authCodeSent": {},
+  "authDevCode": "Development code: {code}",
+  "@authDevCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "authForgot": "Forgot password?",
+  "@authForgot": {},
+  "authResetTitle": "Reset password",
+  "@authResetTitle": {},
+  "authResetDone": "Password updated. Sign in with your new password.",
+  "@authResetDone": {},
+  "authNewPassword": "New password",
+  "@authNewPassword": {},
+  "authCurrentPassword": "Current password",
+  "@authCurrentPassword": {},
+  "authPasswordRule": "At least 10 characters, with letters and numbers.",
+  "@authPasswordRule": {},
+  "authChangeTitle": "Create a new password",
+  "@authChangeTitle": {},
+  "authChangeBody": "For your security, set your own password before you continue.",
+  "@authChangeBody": {},
+  "authSaveContinue": "Save and continue",
+  "@authSaveContinue": {},
+  "authSignOut": "Sign out",
+  "@authSignOut": {},
+  "authSignOutConfirm": "Sign out of ZONA Sales on this phone?",
+  "@authSignOutConfirm": {},
+  "errorINVALIDCREDENTIALS": "Employee ID or password is incorrect.",
+  "@errorINVALIDCREDENTIALS": {},
+  "errorACCOUNTLOCKED": "Too many attempts. Try again in a few minutes.",
+  "@errorACCOUNTLOCKED": {},
+  "errorOTPINVALID": "The code is invalid or has expired.",
+  "@errorOTPINVALID": {},
+  "errorOTPTOOSOON": "Wait a minute before requesting another code.",
+  "@errorOTPTOOSOON": {},
+  "errorPASSWORDWEAK": "Use at least 10 characters with letters and numbers.",
+  "@errorPASSWORDWEAK": {},
+  "errorPASSWORDREUSED": "Choose a password you haven't used here before.",
+  "@errorPASSWORDREUSED": {},
+  "errorMOBILENOTALLOWED": "This account uses the admin portal.",
+  "@errorMOBILENOTALLOWED": {},
+  "errorSESSIONENDED": "Your session has ended. Please sign in again.",
+  "@errorSESSIONENDED": {},
+  "errorOUTSIDEGEOFENCE": "You are {distance} from {site}. Move inside your work area to check in.",
+  "@errorOUTSIDEGEOFENCE": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "errorONLEAVE": "You are on approved leave today.",
+  "@errorONLEAVE": {},
+  "errorALREADYCHECKEDIN": "You have already checked in today.",
+  "@errorALREADYCHECKEDIN": {},
+  "errorNOTCHECKEDIN": "You are not checked in.",
+  "@errorNOTCHECKEDIN": {},
+  "errorCONSENTREQUIRED": "Please accept location sharing first.",
+  "@errorCONSENTREQUIRED": {},
+  "errorLOCATIONPERMISSION": "Location access is needed to check in.",
+  "@errorLOCATIONPERMISSION": {},
+  "errorLOCATIONUNAVAILABLE": "We couldn't get your location. Move to an open area and try again.",
+  "@errorLOCATIONUNAVAILABLE": {},
+  "errorNETWORK": "You're offline. Check your connection and try again.",
+  "@errorNETWORK": {},
+  "errorOVERLAP": "You already have a leave request for these dates.",
+  "@errorOVERLAP": {},
+  "errorCORRECTIONPENDING": "A correction for this day is already waiting for review.",
+  "@errorCORRECTIONPENDING": {},
+  "errorMONTHFINALIZED": "This month is finalized. Contact your administrator to change it.",
+  "@errorMONTHFINALIZED": {},
+  "onboardingConsentTitle": "Location sharing",
+  "@onboardingConsentTitle": {},
+  "onboardingConsentAccept": "I agree",
+  "@onboardingConsentAccept": {},
+  "onboardingPermTitle": "Allow location access",
+  "@onboardingPermTitle": {},
+  "onboardingPermBody": "ZONA Sales needs “Allow all the time” so your location keeps updating while you're checked in, even when the app is closed. It is never collected after you check out.",
+  "@onboardingPermBody": {},
+  "onboardingPermAllow": "Allow location",
+  "@onboardingPermAllow": {},
+  "onboardingPermOpenSettings": "Open settings",
+  "@onboardingPermOpenSettings": {},
+  "onboardingPermAlwaysNeeded": "In Settings, choose Location → “Allow all the time”.",
+  "@onboardingPermAlwaysNeeded": {},
+  "onboardingContinue": "Continue",
+  "@onboardingContinue": {},
+  "homeLocating": "Getting your location…",
+  "@homeLocating": {},
+  "homeOffDay": "Today is your day off.",
+  "@homeOffDay": {},
+  "homeHoliday": "Public holiday: {name}",
+  "@homeHoliday": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeOnLeave": "You're on approved leave today.",
+  "@homeOnLeave": {},
+  "homeFlagged": "Your check-in was sent to your administrator for review.",
+  "@homeFlagged": {},
+  "homeTrackingTitle": "Location sharing is ON",
+  "@homeTrackingTitle": {},
+  "homeTrackingText": "You're checked in. Sharing stops when you check out.",
+  "@homeTrackingText": {},
+  "homePending": "{count, plural, one {{count} location update waiting to send} other {{count} location updates waiting to send}}",
+  "@homePending": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catalogueAll": "All",
+  "@catalogueAll": {},
+  "catalogueSearch": "Search products",
+  "@catalogueSearch": {},
+  "catalogueEmpty": "No products match your search",
+  "@catalogueEmpty": {},
+  "catalogueOffer": "Offer",
+  "@catalogueOffer": {},
+  "catalogueValidUntil": "Until {date}",
+  "@catalogueValidUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogueShare": "Share",
+  "@catalogueShare": {},
+  "catalogueShareVia": "Share via",
+  "@catalogueShareVia": {},
+  "catalogueWhatsapp": "WhatsApp",
+  "@catalogueWhatsapp": {},
+  "catalogueSms": "SMS",
+  "@catalogueSms": {},
+  "catalogueEmail": "Email",
+  "@catalogueEmail": {},
+  "catalogueCopyLink": "Copy link",
+  "@catalogueCopyLink": {},
+  "catalogueMore": "More options",
+  "@catalogueMore": {},
+  "catalogueRecipient": "Customer contact (optional)",
+  "@catalogueRecipient": {},
+  "catalogueShareText": "{name}\n{link}",
+  "@catalogueShareText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogueLinkCopied": "Link copied",
+  "@catalogueLinkCopied": {},
+  "catalogueShared": "Shared and logged",
+  "@catalogueShared": {},
+  "leaveNew": "New request",
+  "@leaveNew": {},
+  "leaveEmpty": "No leave requests yet",
+  "@leaveEmpty": {},
+  "leaveType": "Type",
+  "@leaveType": {},
+  "leaveTypeLeave": "Leave",
+  "@leaveTypeLeave": {},
+  "leaveTypeOffDay": "Off day",
+  "@leaveTypeOffDay": {},
+  "leaveFrom": "From",
+  "@leaveFrom": {},
+  "leaveTo": "To",
+  "@leaveTo": {},
+  "leaveReason": "Reason",
+  "@leaveReason": {},
+  "leaveSubmit": "Submit request",
+  "@leaveSubmit": {},
+  "leaveCancelRequest": "Cancel request",
+  "@leaveCancelRequest": {},
+  "leaveStatusPending": "Pending",
+  "@leaveStatusPending": {},
+  "leaveStatusApproved": "Approved",
+  "@leaveStatusApproved": {},
+  "leaveStatusRejected": "Rejected",
+  "@leaveStatusRejected": {},
+  "leaveStatusCancelled": "Cancelled",
+  "@leaveStatusCancelled": {},
+  "leaveSubmitted": "Request sent to your administrator",
+  "@leaveSubmitted": {},
+  "leaveDays": "{count, plural, one {{count} day} other {{count} days}}",
+  "@leaveDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileSupervisor": "Supervisor",
+  "@profileSupervisor": {},
+  "profileBranch": "Branch",
+  "@profileBranch": {},
+  "profileMyAttendance": "My attendance",
+  "@profileMyAttendance": {},
+  "profilePrivacy": "Privacy",
+  "@profilePrivacy": {},
+  "profileVersion": "Version {version}",
+  "@profileVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceRequestCorrection": "Request correction",
+  "@attendanceRequestCorrection": {},
+  "attendanceCorrectionPending": "Correction pending",
+  "@attendanceCorrectionPending": {},
+  "attendanceCorrectionSent": "Correction request sent",
+  "@attendanceCorrectionSent": {},
+  "attendanceNoRecords": "No attendance records this month",
+  "@attendanceNoRecords": {},
+  "attendanceMissingCheckout": "No check-out",
+  "@attendanceMissingCheckout": {},
+  "attendanceCorrectionReason": "What should be corrected?",
+  "@attendanceCorrectionReason": {},
+  "notifyCheckedIn": "You checked in",
+  "@notifyCheckedIn": {},
+  "notifyCheckedOut": "You checked out",
+  "@notifyCheckedOut": {},
+  "notifyCheckedOutShort": "You checked out before the required hours",
+  "@notifyCheckedOutShort": {},
+  "notifyAutoCheckedOut": "You were checked out automatically after the shift limit",
+  "@notifyAutoCheckedOut": {},
+  "notifyLateWarning": "Check in soon to avoid being marked late",
+  "@notifyLateWarning": {},
+  "notifyHoursCompleted": "You've completed today's required hours",
+  "@notifyHoursCompleted": {},
+  "notifyGeofenceExit": "You left your work area",
+  "@notifyGeofenceExit": {},
+  "notifyLeaveApproved": "Your leave request was approved",
+  "@notifyLeaveApproved": {},
+  "notifyLeaveRejected": "Your leave request was rejected",
+  "@notifyLeaveRejected": {},
+  "notifyCorrectionApproved": "Your correction request was approved",
+  "@notifyCorrectionApproved": {},
+  "notifyCorrectionRejected": "Your correction request was rejected",
+  "@notifyCorrectionRejected": {},
+  "notifyFraudFlagged": "A check-in by {employeeId} needs your review",
+  "@notifyFraudFlagged": {
+    "placeholders": {
+      "employeeId": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationsEmpty": "You're all caught up",
+  "@notificationsEmpty": {},
+  "notificationsMarkAll": "Mark all as read",
+  "@notificationsMarkAll": {},
+  "notifyNewContent": "New in the catalogue: {name}",
+  "@notifyNewContent": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "portalSignInTitle": "Admin portal sign in",
+  "@portalSignInTitle": {},
+  "portalSignInBody": "For the ZONA administrator. Sales representatives use the ZONA Sales app.",
+  "@portalSignInBody": {},
+  "portalErrorPORTALNOTALLOWED": "Sales representatives use the mobile app.",
+  "@portalErrorPORTALNOTALLOWED": {},
+  "portalSignedInAs": "Signed in as {name}",
+  "@portalSignedInAs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "portalRoleSuperAdmin": "Administrator",
+  "@portalRoleSuperAdmin": {},
+  "portalRoleHrAdmin": "HR admin",
+  "@portalRoleHrAdmin": {},
+  "portalRoleSalesSupervisor": "Sales supervisor",
+  "@portalRoleSalesSupervisor": {},
+  "portalRoleSalesRep": "Sales representative",
+  "@portalRoleSalesRep": {},
+  "portalToday": "Today",
+  "@portalToday": {},
+  "portalAllTeams": "All teams",
+  "@portalAllTeams": {},
+  "portalAllStatuses": "All statuses",
+  "@portalAllStatuses": {},
+  "portalNotCheckedIn": "Not checked in",
+  "@portalNotCheckedIn": {},
+  "portalPendingReviews": "Suspected check-ins to review",
+  "@portalPendingReviews": {},
+  "portalPendingLeave": "Leave requests",
+  "@portalPendingLeave": {},
+  "portalPendingCorrections": "Correction requests",
+  "@portalPendingCorrections": {},
+  "portalNeedsAttention": "Needs your attention",
+  "@portalNeedsAttention": {},
+  "portalLiveNow": "Live now",
+  "@portalLiveNow": {},
+  "portalOnDutyCount": "{count, plural, one {{count} rep on duty} other {{count} reps on duty}}",
+  "@portalOnDutyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "portalNoOneOnDuty": "No one is on duty right now",
+  "@portalNoOneOnDuty": {},
+  "portalCheckedInAt": "Checked in {time}",
+  "@portalCheckedInAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "portalMinutesAgo": "{count, plural, =0 {just now} one {{count} min ago} other {{count} min ago}}",
+  "@portalMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "portalTrail": "Today's trail",
+  "@portalTrail": {},
+  "portalTrailPoints": "{count, plural, one {{count} point} other {{count} points}}",
+  "@portalTrailPoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "portalTabRegister": "Register",
+  "@portalTabRegister": {},
+  "portalTabReviews": "Suspected check-ins",
+  "@portalTabReviews": {},
+  "portalTabCorrections": "Corrections",
+  "@portalTabCorrections": {},
+  "portalTabLeave": "Leave requests",
+  "@portalTabLeave": {},
+  "portalDetails": "Attendance details",
+  "@portalDetails": {},
+  "portalStatusTrail": "Status history",
+  "@portalStatusTrail": {},
+  "portalCauseCheckIn": "Checked in",
+  "@portalCauseCheckIn": {},
+  "portalCauseCheckOut": "Checked out",
+  "@portalCauseCheckOut": {},
+  "portalCauseFraudFlagged": "Flagged automatically",
+  "@portalCauseFraudFlagged": {},
+  "portalCauseReviewConfirmed": "Confirmed as fake",
+  "@portalCauseReviewConfirmed": {},
+  "portalCauseReviewCleared": "Marked genuine",
+  "@portalCauseReviewCleared": {},
+  "portalCauseCorrectionApproved": "Correction approved",
+  "@portalCauseCorrectionApproved": {},
+  "portalCauseLeaveApproved": "Leave approved",
+  "@portalCauseLeaveApproved": {},
+  "portalCauseLeaveCancelled": "Leave cancelled",
+  "@portalCauseLeaveCancelled": {},
+  "portalCauseAbsentMarked": "Marked absent",
+  "@portalCauseAbsentMarked": {},
+  "portalCauseMonthCorrection": "Month-end correction",
+  "@portalCauseMonthCorrection": {},
+  "portalSystem": "System",
+  "@portalSystem": {},
+  "portalSignalMockLocation": "A mock-location app was active on the device",
+  "@portalSignalMockLocation": {},
+  "portalSignalGpsNetworkMismatch": "GPS and network positions were {distance} apart",
+  "@portalSignalGpsNetworkMismatch": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "portalSignalImpossibleSpeed": "Moved at {speed} km/h between pings",
+  "@portalSignalImpossibleSpeed": {
+    "placeholders": {
+      "speed": {
+        "type": "String"
+      }
+    }
+  },
+  "portalSignalRootedDevice": "Rooted, jailbroken or emulated device",
+  "@portalSignalRootedDevice": {},
+  "portalSignalOutsideGeofence": "{distance} outside the work area",
+  "@portalSignalOutsideGeofence": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "portalNoPending": "Nothing waiting for review",
+  "@portalNoPending": {},
+  "portalRequested": "Requested",
+  "@portalRequested": {},
+  "portalCurrent": "Current",
+  "@portalCurrent": {},
+  "portalApproveRemark": "Remark (optional for approval, required to reject)",
+  "@portalApproveRemark": {},
+  "portalDecided": "Decision saved",
+  "@portalDecided": {},
+  "portalEmployeeSaved": "Employee saved",
+  "@portalEmployeeSaved": {},
+  "portalEmployeeCreated": "Employee created. Temporary password: {password}",
+  "@portalEmployeeCreated": {
+    "placeholders": {
+      "password": {
+        "type": "String"
+      }
+    }
+  },
+  "portalEditEmployee": "Edit employee",
+  "@portalEditEmployee": {},
+  "portalNameEn": "Name (English)",
+  "@portalNameEn": {},
+  "portalNameAr": "Name (Arabic)",
+  "@portalNameAr": {},
+  "portalRole": "Role",
+  "@portalRole": {},
+  "portalStatus": "Status",
+  "@portalStatus": {},
+  "portalActive": "Active",
+  "@portalActive": {},
+  "portalInactive": "Inactive",
+  "@portalInactive": {},
+  "portalDeactivate": "Deactivate",
+  "@portalDeactivate": {},
+  "portalActivate": "Activate",
+  "@portalActivate": {},
+  "portalShiftWindow": "Sign-in window",
+  "@portalShiftWindow": {},
+  "portalShiftWindowValue": "{from} – {to}",
+  "@portalShiftWindowValue": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "portalNoSupervisor": "No supervisor",
+  "@portalNoSupervisor": {},
+  "portalProducts": "Products and offers",
+  "@portalProducts": {},
+  "portalNewProduct": "New item",
+  "@portalNewProduct": {},
+  "portalEditProduct": "Edit item",
+  "@portalEditProduct": {},
+  "portalItemType": "Type",
+  "@portalItemType": {},
+  "portalTypeProduct": "Product",
+  "@portalTypeProduct": {},
+  "portalTypeOffer": "Offer",
+  "@portalTypeOffer": {},
+  "portalTypePromo": "Promotion",
+  "@portalTypePromo": {},
+  "portalCategory": "Category",
+  "@portalCategory": {},
+  "portalDescriptionEn": "Description (English)",
+  "@portalDescriptionEn": {},
+  "portalDescriptionAr": "Description (Arabic)",
+  "@portalDescriptionAr": {},
+  "portalValidFrom": "Valid from",
+  "@portalValidFrom": {},
+  "portalValidTo": "Valid until",
+  "@portalValidTo": {},
+  "portalPublish": "Publish",
+  "@portalPublish": {},
+  "portalUnpublish": "Move to draft",
+  "@portalUnpublish": {},
+  "portalArchive": "Archive",
+  "@portalArchive": {},
+  "portalContentDraft": "Draft",
+  "@portalContentDraft": {},
+  "portalContentPublished": "Published",
+  "@portalContentPublished": {},
+  "portalContentArchived": "Archived",
+  "@portalContentArchived": {},
+  "portalShares": "Shares",
+  "@portalShares": {},
+  "portalAttendanceRules": "Attendance rules",
+  "@portalAttendanceRules": {},
+  "portalRulesBody": "Rules are effective-dated: a change applies from its start date and history is kept for audits.",
+  "@portalRulesBody": {},
+  "portalNewRule": "New rule",
+  "@portalNewRule": {},
+  "portalScope": "Applies to",
+  "@portalScope": {},
+  "portalScopeGlobal": "Everyone",
+  "@portalScopeGlobal": {},
+  "portalRequiredHours": "Required hours",
+  "@portalRequiredHours": {},
+  "portalGrace": "Grace after latest start",
+  "@portalGrace": {},
+  "portalPingInterval": "Location update interval",
+  "@portalPingInterval": {},
+  "portalOutsideAction": "Outside the work area",
+  "@portalOutsideAction": {},
+  "portalOutsideFlag": "Flag for review",
+  "@portalOutsideFlag": {},
+  "portalOutsideBlock": "Block check-in",
+  "@portalOutsideBlock": {},
+  "portalEffectiveFrom": "Effective from",
+  "@portalEffectiveFrom": {},
+  "portalMinutesValue": "{count, plural, one {{count} minute} other {{count} minutes}}",
+  "@portalMinutesValue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "portalGeofences": "Work areas (geofences)",
+  "@portalGeofences": {},
+  "portalNewGeofence": "New work area",
+  "@portalNewGeofence": {},
+  "portalGeofenceHint": "Click the map to place the centre, then set the radius.",
+  "@portalGeofenceHint": {},
+  "portalRadius": "Radius",
+  "@portalRadius": {},
+  "portalAssignedTo": "Assigned to",
+  "@portalAssignedTo": {},
+  "portalAssign": "Assign",
+  "@portalAssign": {},
+  "portalAssignBranch": "Branch",
+  "@portalAssignBranch": {},
+  "portalAssignTeam": "Team",
+  "@portalAssignTeam": {},
+  "portalAssignEmployee": "Employee",
+  "@portalAssignEmployee": {},
+  "portalEndAssignment": "Remove",
+  "@portalEndAssignment": {},
+  "portalUnassigned": "Not assigned",
+  "@portalUnassigned": {},
+  "portalSharesReport": "Marketing activity",
+  "@portalSharesReport": {},
+  "portalByProduct": "By product",
+  "@portalByProduct": {},
+  "portalByEmployee": "By employee",
+  "@portalByEmployee": {},
+  "portalByChannel": "By channel",
+  "@portalByChannel": {},
+  "portalChannelWhatsapp": "WhatsApp",
+  "@portalChannelWhatsapp": {},
+  "portalChannelSms": "SMS",
+  "@portalChannelSms": {},
+  "portalChannelEmail": "Email",
+  "@portalChannelEmail": {},
+  "portalChannelLink": "Link",
+  "@portalChannelLink": {},
+  "portalChannelOther": "Other",
+  "@portalChannelOther": {},
+  "portalNoData": "No data for this period",
+  "@portalNoData": {},
+  "portalFrom": "From",
+  "@portalFrom": {},
+  "portalTo": "To",
+  "@portalTo": {},
+  "portalMonthlySummary": "Monthly attendance summary",
+  "@portalMonthlySummary": {},
+  "portalComingPhase5": "Arrives in Phase 5: compute, review, finalize and export.",
+  "@portalComingPhase5": {},
+  "portalSignOut": "Sign out",
+  "@portalSignOut": {},
+  "portalMinutesShort": "{count} min",
+  "@portalMinutesShort": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "portalTabSummary": "Monthly summary",
+  "@portalTabSummary": {},
+  "portalMonth": "Month",
+  "@portalMonth": {},
+  "portalCompute": "Recalculate",
+  "@portalCompute": {},
+  "portalFinalize": "Finalize month",
+  "@portalFinalize": {},
+  "portalReopen": "Re-open month",
+  "@portalReopen": {},
+  "portalReopenReason": "Reason for re-opening",
+  "@portalReopenReason": {},
+  "portalPeriodOpen": "Open",
+  "@portalPeriodOpen": {},
+  "portalPeriodDraft": "Draft",
+  "@portalPeriodDraft": {},
+  "portalPeriodFinalized": "Finalized",
+  "@portalPeriodFinalized": {},
+  "portalPeriodReopened": "Re-opened",
+  "@portalPeriodReopened": {},
+  "portalBlockedSuspected": "{count, plural, one {{count} suspected check-in must be reviewed before finalizing} other {{count} suspected check-ins must be reviewed before finalizing}}",
+  "@portalBlockedSuspected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "portalExportCsv": "CSV",
+  "@portalExportCsv": {},
+  "portalExportExcel": "Excel",
+  "@portalExportExcel": {},
+  "portalExportPdf": "Print / PDF",
+  "@portalExportPdf": {},
+  "portalVersion": "Version",
+  "@portalVersion": {},
+  "portalCorrectDay": "Correct",
+  "@portalCorrectDay": {},
+  "portalNewStatus": "New status",
+  "@portalNewStatus": {},
+  "portalCorrectionReason": "Reason (required)",
+  "@portalCorrectionReason": {},
+  "portalFinalizedNote": "This month is locked. HRMS can now read these counts.",
+  "@portalFinalizedNote": {},
+  "portalNotComputed": "Not calculated yet. Select Recalculate.",
+  "@portalNotComputed": {},
+  "portalComputedAt": "Calculated {time}",
+  "@portalComputedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "portalDaysOf": "Days for {name}",
+  "@portalDaysOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errorSUSPECTEDPENDING": "Review every suspected check-in in this month first.",
+  "@errorSUSPECTEDPENDING": {},
+  "errorMONTHNOTENDED": "A month can be finalized only after it ends.",
+  "@errorMONTHNOTENDED": {},
+  "errorUSEREVIEW": "Decide suspected or confirmed fakes through the review.",
+  "@errorUSEREVIEW": {},
+  "errorCHECKINREQUIRED": "A day without a check-in can only be marked absent.",
+  "@errorCHECKINREQUIRED": {},
+  "errorNOTFINALIZED": "This month is not finalized.",
+  "@errorNOTFINALIZED": {},
+  "portalOrg": "Organisation",
+  "@portalOrg": {},
+  "portalBranches": "Branches",
+  "@portalBranches": {},
+  "portalTeams": "Teams",
+  "@portalTeams": {},
+  "portalNewBranch": "New branch",
+  "@portalNewBranch": {},
+  "portalNewTeam": "New team",
+  "@portalNewTeam": {},
+  "portalCode": "Code",
+  "@portalCode": {},
+  "portalEdit": "Edit",
+  "@portalEdit": {},
+  "portalHolidays": "Holidays and company off days",
+  "@portalHolidays": {},
+  "portalHolidaysBody": "Holidays are excluded from absence counts. Add Eid dates each year once they are announced.",
+  "@portalHolidaysBody": {},
+  "portalNewHoliday": "Add holiday",
+  "@portalNewHoliday": {},
+  "portalDate": "Date",
+  "@portalDate": {},
+  "portalAllBranches": "All branches",
+  "@portalAllBranches": {},
+  "portalKindPublicHoliday": "Public holiday",
+  "@portalKindPublicHoliday": {},
+  "portalKindCompanyOffDay": "Company off day",
+  "@portalKindCompanyOffDay": {},
+  "portalResetPassword": "Reset password",
+  "@portalResetPassword": {},
+  "portalTempPasswordTitle": "Temporary password",
+  "@portalTempPasswordTitle": {},
+  "portalTempPasswordBody": "Give this to {name} privately. They must change it at their next sign-in. It will not be shown again.",
+  "@portalTempPasswordBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "portalCopy": "Copy",
+  "@portalCopy": {},
+  "portalCopied": "Copied",
+  "@portalCopied": {},
+  "portalSaved": "Saved",
+  "@portalSaved": {},
+  "errorHOLIDAYINPAST": "Past holidays already affect recorded attendance and can't be removed.",
+  "@errorHOLIDAYINPAST": {},
+  "errorEMPLOYEEEXISTS": "An employee with this ID already exists.",
+  "@errorEMPLOYEEEXISTS": {},
+  "errorDUPLICATE": "This already exists.",
+  "@errorDUPLICATE": {},
+  "authForgotAdmin": "Forgot your password? Ask your administrator to reset it.",
+  "@authForgotAdmin": {},
+  "errorOTPUNAVAILABLE": "One-time codes aren't available yet. Ask an administrator to reset your password.",
+  "@errorOTPUNAVAILABLE": {},
+  "portalEmployeesBody": "Every account here is a sales rep. Only you create accounts and passwords — reps can't sign themselves up.",
+  "@portalEmployeesBody": {},
+  "credTitle": "Sign-in details",
+  "@credTitle": {},
+  "credBody": "Give these to {name} privately. They won't be shown again.",
+  "@credBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "credMustChange": "They'll choose their own password at first sign-in.",
+  "@credMustChange": {},
+  "credKeep": "They'll keep using this password until you reset it.",
+  "@credKeep": {},
+  "credGenerate": "Generate",
+  "@credGenerate": {},
+  "credAskChange": "Ask them to choose a new password at first sign-in",
+  "@credAskChange": {},
+  "credResetTitle": "Reset password for {name}",
+  "@credResetTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "credResetBody": "Their current sign-ins end immediately.",
+  "@credResetBody": {},
+  "errorADMINREQUIRED": "The administrator account can't be deactivated.",
+  "@errorADMINREQUIRED": {},
+  "errorNOTAREP": "Targets are for sales representatives only.",
+  "@errorNOTAREP": {},
+  "errorNOTONDUTY": "Check in first — visits and orders are logged while you're on duty.",
+  "@errorNOTONDUTY": {},
+  "errorINVALIDMONTH": "Choose a valid month.",
+  "@errorINVALIDMONTH": {},
+  "navTargets": "Sales targets",
+  "@navTargets": {},
+  "targetsBody": "Set monthly visit and order targets. Reps log each visit and order in the ZONA Sales app while checked in.",
+  "@targetsBody": {},
+  "targetsSetAll": "Set for all reps",
+  "@targetsSetAll": {},
+  "targetsSetSelected": "Set target for selected",
+  "@targetsSetSelected": {},
+  "targetsSet": "Set target",
+  "@targetsSet": {},
+  "targetsSetFor": "Target for {name}",
+  "@targetsSetFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "targetsRemove": "Remove target",
+  "@targetsRemove": {},
+  "targetsVisits": "Visits",
+  "@targetsVisits": {},
+  "targetsOrders": "Orders",
+  "@targetsOrders": {},
+  "targetsVisitsTarget": "Visits target",
+  "@targetsVisitsTarget": {},
+  "targetsOrdersTarget": "Orders target",
+  "@targetsOrdersTarget": {},
+  "targetsNote": "Note for the rep",
+  "@targetsNote": {},
+  "targetsOverwrite": "Replace targets already set for this month",
+  "@targetsOverwrite": {},
+  "targetsProgress": "{done} of {target}",
+  "@targetsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "targetsNoTarget": "No target",
+  "@targetsNoTarget": {},
+  "targetsApplied": "Targets set: {applied}. Already set and kept: {skipped}.",
+  "@targetsApplied": {
+    "placeholders": {
+      "applied": {
+        "type": "String"
+      },
+      "skipped": {
+        "type": "String"
+      }
+    }
+  },
+  "targetsSaved": "Target saved",
+  "@targetsSaved": {},
+  "targetsTabProgress": "Progress",
+  "@targetsTabProgress": {},
+  "targetsTabLog": "Visits and orders log",
+  "@targetsTabLog": {},
+  "targetsKpiVisits": "Visits this month",
+  "@targetsKpiVisits": {},
+  "targetsKpiOrders": "Orders this month",
+  "@targetsKpiOrders": {},
+  "targetsKpiNoTarget": "Reps without a target",
+  "@targetsKpiNoTarget": {},
+  "targetsKindVisit": "Visit",
+  "@targetsKindVisit": {},
+  "targetsKindOrder": "Order",
+  "@targetsKindOrder": {},
+  "targetsCustomer": "Customer",
+  "@targetsCustomer": {},
+  "targetsWhen": "Logged at",
+  "@targetsWhen": {},
+  "targetsType": "Type",
+  "@targetsType": {},
+  "targetsVoid": "Void entry",
+  "@targetsVoid": {},
+  "targetsVoidReason": "Reason",
+  "@targetsVoidReason": {},
+  "targetsVoided": "Voided",
+  "@targetsVoided": {},
+  "targetsVoidTitle": "Void this entry?",
+  "@targetsVoidTitle": {},
+  "targetsVoidBody": "It stops counting toward the target. The entry stays in the log with your reason.",
+  "@targetsVoidBody": {},
+  "targetsEmptyLog": "No visits or orders logged this month",
+  "@targetsEmptyLog": {},
+  "targetsEmptyLogBody": "Entries appear here as reps log them in the app.",
+  "@targetsEmptyLogBody": {},
+  "targetsSelectedCount": "{count} selected reps",
+  "@targetsSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "salesTitle": "My target",
+  "@salesTitle": {},
+  "salesMonthTarget": "Target for {month}",
+  "@salesMonthTarget": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "salesNone": "No target set for this month yet",
+  "@salesNone": {},
+  "salesNoneBody": "Your administrator sets monthly targets. You can still log visits and orders.",
+  "@salesNoneBody": {},
+  "salesLogVisit": "Log a visit",
+  "@salesLogVisit": {},
+  "salesLogOrder": "Log an order",
+  "@salesLogOrder": {},
+  "salesCustomerHint": "Shop or customer name",
+  "@salesCustomerHint": {},
+  "salesNoteHint": "What happened? (optional)",
+  "@salesNoteHint": {},
+  "salesLogged": "Saved",
+  "@salesLogged": {},
+  "salesCheckInFirst": "Check in to log visits and orders.",
+  "@salesCheckInFirst": {},
+  "salesRecent": "This month",
+  "@salesRecent": {},
+  "salesEmpty": "Nothing logged yet this month",
+  "@salesEmpty": {},
+  "salesRemaining": "{count} to go",
+  "@salesRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "salesReached": "Target reached",
+  "@salesReached": {},
+  "salesViewAll": "View all",
+  "@salesViewAll": {},
+  "notifyTargetSet": "Your sales target for {month} has been set",
+  "@notifyTargetSet": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "demoBadge": "Live demo",
+  "@demoBadge": {},
+  "demoBanner": "Live demo — simulated reps are working right now; data resets every night.",
+  "@demoBanner": {},
+  "demoGetIt": "Get SFMS for your team",
+  "@demoGetIt": {},
+  "demoSource": "Source on GitHub",
+  "@demoSource": {},
+  "demoLoginTitle": "Try the live demo",
+  "@demoLoginTitle": {},
+  "demoLoginBody": "Explore as the administrator. Simulated reps are checking in, driving routes and logging visits right now — open the live map.",
+  "@demoLoginBody": {},
+  "demoSignIn": "Enter the demo",
+  "@demoSignIn": {},
+  "demoCredentials": "Administrator {id} · password {password}",
+  "@demoCredentials": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "password": {
+        "type": "String"
+      }
+    }
+  },
+  "demoBuiltBy": "Built by Muhammad Abdullah Waseem",
+  "@demoBuiltBy": {},
+  "demoAppHint": "Demo: sign in as {id} with password {password}. Check-ins from outside the Riyadh office are flagged for review — that's the fraud check at work.",
+  "@demoAppHint": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "password": {
+        "type": "String"
+      }
+    }
+  },
+  "demoUseDemo": "Fill in demo sign-in",
+  "@demoUseDemo": {},
+  "errorDEMOPROTECTED": "Demo accounts are shared by every visitor, so they can't be changed. Create your own employee to try this.",
+  "@errorDEMOPROTECTED": {}
+}

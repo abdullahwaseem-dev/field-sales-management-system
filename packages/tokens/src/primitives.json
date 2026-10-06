@@ -1,0 +1,26 @@
+{
+  "$description": "Brand primitives. Navy and orange are anchored on the inks measured from the ZONA logo artwork (navy-900 = #07193C, orange-500 = #FD5813); scales generated in OKLCH with hue locked. Components never use these directly — they use semantic tokens.",
+  "color": {
+    "$type": "color",
+    "white": { "$value": "#FFFFFF" },
+    "navy": {
+      "50": { "$value": "#F3F7FE" }, "100": { "$value": "#E2ECFC" }, "200": { "$value": "#C7D8F6" },
+      "300": { "$value": "#A0BBEB" }, "400": { "$value": "#7498D9" }, "500": { "$value": "#4A73BD" },
+      "600": { "$value": "#2F559D" }, "700": { "$value": "#1B3C7B" }, "800": { "$value": "#0E285A" },
+      "900": { "$value": "#07193C", "$description": "Logo navy" }, "950": { "$value": "#020C28" }
+    },
+    "orange": {
+      "50": { "$value": "#FFF4F1" }, "100": { "$value": "#FEE7E0" }, "200": { "$value": "#FECEBF" },
+      "300": { "$value": "#FFAD92" }, "400": { "$value": "#FE825A" },
+      "500": { "$value": "#FD5813", "$description": "Logo orange. White text on it is 3.19:1 — never put text on it; use accent-strong." },
+      "600": { "$value": "#D9490A" }, "700": { "$value": "#B63E0C" }, "800": { "$value": "#90320E" },
+      "900": { "$value": "#6F2911" }, "950": { "$value": "#491B0C" }
+    },
+    "gray": {
+      "50": { "$value": "#F9FAFC" }, "100": { "$value": "#F2F3F7" }, "200": { "$value": "#E3E6EC" },
+      "300": { "$value": "#D0D4DC" }, "400": { "$value": "#9FA5AF" }, "500": { "$value": "#747B87" },
+      "600": { "$value": "#575E6A" }, "700": { "$value": "#414855" }, "800": { "$value": "#272E3B" },
+      "900": { "$value": "#161D29" }, "950": { "$value": "#0C121C" }
+    }
+  }
+}

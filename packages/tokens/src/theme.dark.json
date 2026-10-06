@@ -1,0 +1,283 @@
+{
+  "$description": "Dark theme semantic tokens — designed, not inverted: layered navy-tinted surfaces (raised = lighter), never pure black or white; brand and accent lightened and desaturated.",
+  "color": {
+    "$type": "color",
+    "canvas": {
+      "$value": "#090F1C"
+    },
+    "surface": {
+      "$value": "#0F1725"
+    },
+    "raised": {
+      "$value": "#171F2F"
+    },
+    "overlay": {
+      "$value": "#1F2838"
+    },
+    "sunken": {
+      "$value": "#0C131F"
+    },
+    "line": {
+      "$value": "#2D3645"
+    },
+    "line-strong": {
+      "$value": "#6B7587"
+    },
+    "fg": {
+      "$value": "{color.gray.100}"
+    },
+    "fg-muted": {
+      "$value": "{color.gray.400}"
+    },
+    "fg-disabled": {
+      "$value": "{color.gray.600}"
+    },
+    "brand": {
+      "$value": "{color.navy.300}"
+    },
+    "brand-hover": {
+      "$value": "{color.navy.200}"
+    },
+    "on-brand": {
+      "$value": "{color.navy.950}"
+    },
+    "brand-fg": {
+      "$value": "{color.navy.300}"
+    },
+    "brand-subtle": {
+      "$value": "#1B2D4E"
+    },
+    "accent": {
+      "$value": "#FB8861"
+    },
+    "accent-strong": {
+      "$value": "#FB8861"
+    },
+    "accent-hover": {
+      "$value": "#FFA384"
+    },
+    "on-accent": {
+      "$value": "{color.navy.950}"
+    },
+    "accent-fg": {
+      "$value": "#FD9976"
+    },
+    "accent-subtle": {
+      "$value": "#422116"
+    },
+    "focus": {
+      "$value": "#FB8861"
+    },
+    "scrim": {
+      "$value": "rgba(1, 5, 15, 0.64)"
+    },
+    "skeleton": {
+      "$value": "#1E2735"
+    },
+    "skeleton-hi": {
+      "$value": "#273141"
+    },
+    "on-solid": {
+      "$value": "{color.navy.950}"
+    },
+    "status": {
+      "present": {
+        "fg": {
+          "$value": "#92DCA1"
+        },
+        "bg": {
+          "$value": "#142E1A"
+        },
+        "border": {
+          "$value": "#4A925C"
+        },
+        "solid": {
+          "$value": "#62BB78"
+        }
+      },
+      "late": {
+        "fg": {
+          "$value": "#F1BD73"
+        },
+        "bg": {
+          "$value": "#362407"
+        },
+        "border": {
+          "$value": "#A67628"
+        },
+        "solid": {
+          "$value": "#D49838"
+        }
+      },
+      "absent": {
+        "fg": {
+          "$value": "#FFAFAC"
+        },
+        "bg": {
+          "$value": "#3D1D1C"
+        },
+        "border": {
+          "$value": "#B96462"
+        },
+        "solid": {
+          "$value": "#EB817F"
+        }
+      },
+      "suspected_fake": {
+        "fg": {
+          "$value": "#D1B9FE"
+        },
+        "bg": {
+          "$value": "#2B223C"
+        },
+        "border": {
+          "$value": "#8A70B8"
+        },
+        "solid": {
+          "$value": "#B191EA"
+        }
+      },
+      "confirmed_fake": {
+        "fg": {
+          "$value": "#FFAACB"
+        },
+        "bg": {
+          "$value": "#3B1D29"
+        },
+        "border": {
+          "$value": "#B36383"
+        },
+        "solid": {
+          "$value": "#E380A9"
+        }
+      },
+      "on_leave": {
+        "fg": {
+          "$value": "#61DDE3"
+        },
+        "bg": {
+          "$value": "#012E30"
+        },
+        "border": {
+          "$value": "#009298"
+        },
+        "solid": {
+          "$value": "#04BBC3"
+        }
+      },
+      "info": {
+        "fg": {
+          "$value": "#8ED0FF"
+        },
+        "bg": {
+          "$value": "#0C2B3E"
+        },
+        "border": {
+          "$value": "#3788BB"
+        },
+        "solid": {
+          "$value": "#4BAEED"
+        }
+      }
+    },
+    "map": {
+      "land": {
+        "$value": "#121927"
+      },
+      "road": {
+        "$value": "#252E3D"
+      },
+      "water": {
+        "$value": "#02243C"
+      },
+      "park": {
+        "$value": "#0F2419"
+      },
+      "label": {
+        "$value": "{color.gray.400}"
+      }
+    },
+    "chart": {
+      "1": {
+        "$value": "#4F80DA"
+      },
+      "2": {
+        "$value": "#D95926"
+      },
+      "3": {
+        "$value": "#199E70"
+      },
+      "4": {
+        "$value": "#C98500"
+      },
+      "5": {
+        "$value": "#D55181"
+      },
+      "6": {
+        "$value": "#008300"
+      },
+      "7": {
+        "$value": "#9085E9"
+      },
+      "8": {
+        "$value": "#E66767"
+      },
+      "grid": {
+        "$value": "#2D3645"
+      },
+      "axis": {
+        "$value": "#3A4456"
+      }
+    }
+  },
+  "shadow": {
+    "$type": "shadow",
+    "sm": {
+      "$value": [
+        {
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0,
+          "color": "rgba(1, 5, 15, 0.40)"
+        }
+      ]
+    },
+    "md": {
+      "$value": [
+        {
+          "x": 0,
+          "y": 4,
+          "blur": 12,
+          "spread": -2,
+          "color": "rgba(1, 5, 15, 0.48)"
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 1,
+          "color": "rgba(160, 187, 235, 0.04)"
+        }
+      ]
+    },
+    "lg": {
+      "$value": [
+        {
+          "x": 0,
+          "y": 16,
+          "blur": 40,
+          "spread": -8,
+          "color": "rgba(1, 5, 15, 0.60)"
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 1,
+          "color": "rgba(160, 187, 235, 0.06)"
+        }
+      ]
+    }
+  }
+}

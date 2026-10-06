@@ -1,0 +1,28 @@
+import * as CheckboxPrimitive from '@radix-ui/react-checkbox';
+import { Check, Minus } from 'lucide-react';
+import { type ComponentPropsWithoutRef, forwardRef } from 'react';
+import { cn } from '@/lib/cn';
+
+export const Checkbox = forwardRef<HTMLButtonElement, ComponentPropsWithoutRef<typeof CheckboxPrimitive.Root>>(
+  ({ className, ...props }, ref) => (
+    <CheckboxPrimitive.Root
+      ref={ref}
+      className={cn(
+        'peer relative inline-flex size-[18px] shrink-0 items-center justify-center rounded-xs border border-line-strong bg-surface',
+        // Invisible 32px hit area around the 18px box.
+        'after:absolute after:-inset-[7px] after:content-[""]',
+        'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus',
+        'data-[state=checked]:border-brand data-[state=checked]:bg-brand data-[state=checked]:text-on-brand',
+        'data-[state=indeterminate]:border-brand data-[state=indeterminate]:bg-brand data-[state=indeterminate]:text-on-brand',
+        'disabled:cursor-not-allowed disabled:border-line disabled:bg-sunken',
+        className,
+      )}
+      {...props}
+    >
+      <CheckboxPrimitive.Indicator className="flex items-center justify-center">
+        {props.checked === 'indeterminate' ? <Minus aria-hidden className="size-3.5" strokeWidth={3} /> : <Check aria-hidden className="size-3.5" strokeWidth={3} />}
+      </CheckboxPrimitive.Indicator>
+    </CheckboxPrimitive.Root>
+  ),
+);
+Checkbox.displayName = 'Checkbox';

@@ -1,0 +1,5 @@
+{
+  "API_BASE_URL": "https://zona-sfms-demo.vercel.app/api/v1",
+  "APP_FLAVOR": "demo",
+  "ALLOW_EMULATOR": "true"
+}

@@ -1,0 +1,147 @@
+@import 'tailwindcss';
+@import '@sfms/tokens/tokens.css';
+@import '@sfms/tokens/tailwind.css';
+
+/* Self-hosted fonts (bundled by Vite; no third-party font CDN). Arabic loads only the Arabic subset —
+   Latin glyphs always come from Inter, so mixed-script lines share one Latin face. */
+@import '@fontsource-variable/inter';
+@import '@fontsource/ibm-plex-sans-arabic/arabic-400.css';
+@import '@fontsource/ibm-plex-sans-arabic/arabic-500.css';
+@import '@fontsource/ibm-plex-sans-arabic/arabic-600.css';
+@import '@fontsource/ibm-plex-sans-arabic/arabic-700.css';
+
+/* Direction variants follow the NEAREST dir (":dir()"), so an LTR frame nested in an RTL page — or the
+   reverse — mirrors correctly. Theme never uses a `dark:` variant: everything is CSS-variable tokens,
+   which also resolve from the nearest .light/.dark scope. */
+@custom-variant rtl (&:dir(rtl));
+@custom-variant ltr (&:dir(ltr));
+
+:root,
+.light {
+  --zona-logo-on-light: inline-block;
+  --zona-logo-on-dark: none;
+}
+.dark {
+  --zona-logo-on-light: none;
+  --zona-logo-on-dark: inline-block;
+}
+
+@layer base {
+  html {
+    background-color: var(--zona-color-canvas);
+    color: var(--zona-color-fg);
+    font-family: var(--zona-font-sans);
+    font-size: 100%; /* respects the user's browser font size (rem-based tokens scale with it) */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scrollbar-color: var(--zona-color-line-strong) transparent;
+  }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background-color: var(--zona-color-canvas);
+    font-size: var(--zona-type-body-size);
+    line-height: var(--zona-type-body-lh);
+  }
+  /* Arabic is never letter-spaced (it breaks the joins between letters). */
+  :lang(ar) {
+    letter-spacing: 0 !important;
+  }
+  :focus-visible {
+    outline: 2px solid var(--zona-color-focus);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background-color: var(--zona-color-brand-subtle);
+    color: var(--zona-color-fg);
+  }
+  bdi {
+    unicode-bidi: isolate;
+  }
+}
+
+@layer components {
+  .zona-logo-on-light {
+    display: var(--zona-logo-on-light);
+  }
+  .zona-logo-on-dark {
+    display: var(--zona-logo-on-dark);
+  }
+
+  /* Motion: short and eased; durations come from tokens, which collapse to 0ms under reduce-motion. */
+  .zona-pop[data-state='open'],
+  .zona-pop[data-state='delayed-open'],
+  .zona-pop[data-state='instant-open'] {
+    animation: zona-pop-in var(--zona-motion-duration-fast) var(--zona-motion-easing-decelerate) both;
+  }
+  .zona-pop[data-state='closed'] {
+    animation: zona-fade-out var(--zona-motion-duration-fast) var(--zona-motion-easing-accelerate) both;
+  }
+  .zona-fade[data-state='open'] {
+    animation: zona-fade-in var(--zona-motion-duration-base) var(--zona-motion-easing-standard) both;
+  }
+  .zona-fade[data-state='closed'] {
+    animation: zona-fade-out var(--zona-motion-duration-fast) var(--zona-motion-easing-accelerate) both;
+  }
+  .zona-toast[data-state='open'] {
+    animation: zona-rise-in var(--zona-motion-duration-base) var(--zona-motion-easing-decelerate) both;
+  }
+  .zona-toast[data-state='closed'] {
+    animation: zona-fade-out var(--zona-motion-duration-fast) var(--zona-motion-easing-accelerate) both;
+  }
+  .zona-toast[data-swipe='move'] {
+    transform: translateX(var(--radix-toast-swipe-move-x));
+  }
+  .zona-toast[data-swipe='cancel'] {
+    transform: translateX(0);
+    transition: transform var(--zona-motion-duration-base) var(--zona-motion-easing-standard);
+  }
+  .zona-toast[data-swipe='end'] {
+    animation: zona-fade-out var(--zona-motion-duration-fast) var(--zona-motion-easing-accelerate) both;
+  }
+  .zona-shimmer {
+    animation: zona-pulse 1.6s var(--zona-motion-easing-standard) infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .zona-shimmer {
+      animation: none;
+    }
+  }
+}
+
+@keyframes zona-pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px) scale(0.98);
+  }
+}
+@keyframes zona-rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+@keyframes zona-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes zona-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes zona-pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+
+/* Print / save as PDF (FR-ASM-04): only the page content, in light colours. */
+@media print {
+  nav[aria-label], header, [role='tablist'] { display: none !important; }
+  html, body, main { background: #fff !important; }
+  main { overflow: visible !important; }
+  .h-dvh { height: auto !important; }
+}

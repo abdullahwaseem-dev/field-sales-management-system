@@ -1,0 +1,39 @@
+{
+  "name": "sfms",
+  "private": true,
+  "description": "Field sales force management: GPS attendance, live tracking, sales targets and catalogue — Flutter app, React portal, NestJS + PostGIS.",
+  "license": "SEE LICENSE IN LICENSE",
+  "workspaces": [
+    "packages/*",
+    "apps/portal",
+    "apps/api"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build:tokens": "npm run build -w @sfms/tokens",
+    "build:i18n": "npm run build -w @sfms/i18n",
+    "build:design": "npm run build:tokens && npm run build:i18n && node tools/sync-mobile-assets.mjs",
+    "dev:portal": "npm run build:design && npm run dev -w @sfms/portal",
+    "check": "npm run build:design && npm run typecheck -w @sfms/portal && npm run build -w @sfms/portal",
+    "screenshots": "npm run build -w @sfms/portal && node tools/screenshot-portal.mjs",
+    "screenshots:mobile": "cd apps/mobile && flutter test --update-goldens test/design_system_golden_test.dart && cd ../.. && python3 tools/compose_mobile_shots.py",
+    "db:start": "brew services start postgresql@18",
+    "db:create": "PATH=/opt/homebrew/opt/postgresql@18/bin:$PATH createdb sfms_dev 2>/dev/null; PATH=/opt/homebrew/opt/postgresql@18/bin:$PATH createdb sfms_test 2>/dev/null; echo databases ready",
+    "db:migrate": "PATH=/opt/homebrew/opt/postgresql@18/bin:$PATH dbmate --env-file .env up",
+    "db:rollback": "PATH=/opt/homebrew/opt/postgresql@18/bin:$PATH dbmate --env-file .env rollback",
+    "db:reset": "PATH=/opt/homebrew/opt/postgresql@18/bin:$PATH dbmate --env-file .env drop && PATH=/opt/homebrew/opt/postgresql@18/bin:$PATH dbmate --env-file .env up",
+    "db:seed": "node db/seed/seed.mjs",
+    "db:test": "node --test 'db/tests/*.test.mjs'",
+    "dev:api": "npm run dev -w @sfms/api"
+  },
+  "devDependencies": {
+    "@node-rs/argon2": "^2.2.1",
+    "axe-core": "^4.14.0",
+    "dbmate": "^2.36.0",
+    "dotenv": "^17.4.2",
+    "pg": "^8.23.1",
+    "playwright-core": "^1.63.0"
+  }
+}

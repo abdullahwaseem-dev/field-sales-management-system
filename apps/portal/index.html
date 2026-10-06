@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="__ZONA_SURFACE_LIGHT__" />
+    <title>ZONA Sales · Admin Portal</title>
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <!--
+      Pre-paint: resolve theme + language from the saved preference (or the OS / browser) and apply
+      class, lang, dir and the canvas colour BEFORE first paint — no flash of the wrong theme or
+      direction. Mirrors src/lib/preferences.tsx. Colours are injected from @sfms/tokens at build time.
+    -->
+    <script>
+      (function () {
+        var p = {};
+        try { p = JSON.parse(localStorage.getItem('sfms.prefs') || '{}') || {}; } catch (e) {}
+        var dark = p.theme === 'dark' || (p.theme !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        var langs = navigator.languages || [navigator.language || 'en'];
+        var locale = p.locale === 'en' || p.locale === 'ar' ? p.locale : (String(langs[0]).toLowerCase().indexOf('ar') === 0 ? 'ar' : 'en');
+        var el = document.documentElement;
+        el.classList.add(dark ? 'dark' : 'light');
+        el.lang = locale;
+        el.dir = locale === 'ar' ? 'rtl' : 'ltr';
+        el.style.backgroundColor = dark ? '__ZONA_CANVAS_DARK__' : '__ZONA_CANVAS_LIGHT__';
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

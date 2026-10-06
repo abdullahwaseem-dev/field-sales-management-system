@@ -1,0 +1,17 @@
+{
+  "name": "@sfms/i18n",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ICU message catalogues (en, ar) → FormatJS JSON for the portal and ARB for Flutter.",
+  "exports": {
+    "./en.json": "./dist/en.json",
+    "./ar.json": "./dist/ar.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@formatjs/icu-messageformat-parser": "^3.0.0"
+  }
+}

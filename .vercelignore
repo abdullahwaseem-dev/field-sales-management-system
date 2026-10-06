@@ -1,0 +1,11 @@
+.env
+.env.*
+apps/mobile
+db/schema.sql
+db/tests
+*.pdf
+docs
+tools/*.py
+supabase
+**/dist
+**/node_modules

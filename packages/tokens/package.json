@@ -1,0 +1,15 @@
+{
+  "name": "@sfms/tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ZONA design tokens (DTCG source) → CSS variables, Tailwind v4 theme, JS, and Dart ThemeExtensions.",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
+    "./tokens.css": "./dist/tokens.css",
+    "./tailwind.css": "./dist/tailwind.css"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}

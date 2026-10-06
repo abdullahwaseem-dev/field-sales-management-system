@@ -1,0 +1,290 @@
+{
+  "$description": "Light theme semantic tokens. Every text/icon/border pair is contrast-checked by scripts/build.mjs (WCAG AA) and the build fails on any miss.",
+  "color": {
+    "$type": "color",
+    "canvas": {
+      "$value": "{color.gray.50}"
+    },
+    "surface": {
+      "$value": "{color.white}"
+    },
+    "raised": {
+      "$value": "{color.white}"
+    },
+    "overlay": {
+      "$value": "{color.white}"
+    },
+    "sunken": {
+      "$value": "{color.gray.100}"
+    },
+    "line": {
+      "$value": "{color.gray.200}"
+    },
+    "line-strong": {
+      "$value": "{color.gray.500}"
+    },
+    "fg": {
+      "$value": "{color.gray.900}"
+    },
+    "fg-muted": {
+      "$value": "{color.gray.600}"
+    },
+    "fg-disabled": {
+      "$value": "{color.gray.400}"
+    },
+    "brand": {
+      "$value": "{color.navy.900}"
+    },
+    "brand-hover": {
+      "$value": "{color.navy.800}"
+    },
+    "on-brand": {
+      "$value": "{color.white}"
+    },
+    "brand-fg": {
+      "$value": "{color.navy.700}"
+    },
+    "brand-subtle": {
+      "$value": "{color.navy.50}"
+    },
+    "accent": {
+      "$value": "{color.orange.500}"
+    },
+    "accent-strong": {
+      "$value": "{color.orange.700}"
+    },
+    "accent-hover": {
+      "$value": "{color.orange.800}"
+    },
+    "on-accent": {
+      "$value": "{color.white}"
+    },
+    "accent-fg": {
+      "$value": "{color.orange.700}"
+    },
+    "accent-subtle": {
+      "$value": "{color.orange.50}"
+    },
+    "focus": {
+      "$value": "{color.navy.600}"
+    },
+    "scrim": {
+      "$value": "rgba(2, 12, 40, 0.48)"
+    },
+    "skeleton": {
+      "$value": "{color.gray.100}"
+    },
+    "skeleton-hi": {
+      "$value": "{color.gray.50}"
+    },
+    "on-solid": {
+      "$value": "{color.white}"
+    },
+    "status": {
+      "present": {
+        "fg": {
+          "$value": "#046E30"
+        },
+        "bg": {
+          "$value": "#E8F9EB"
+        },
+        "border": {
+          "$value": "#429C5A"
+        },
+        "solid": {
+          "$value": "#047E39"
+        }
+      },
+      "late": {
+        "fg": {
+          "$value": "#7A5103"
+        },
+        "bg": {
+          "$value": "#FEF2E1"
+        },
+        "border": {
+          "$value": "#B37903"
+        },
+        "solid": {
+          "$value": "#8D5E05"
+        }
+      },
+      "absent": {
+        "fg": {
+          "$value": "#963538"
+        },
+        "bg": {
+          "$value": "#FFEFEE"
+        },
+        "border": {
+          "$value": "#C86362"
+        },
+        "solid": {
+          "$value": "#AF3C40"
+        }
+      },
+      "suspected_fake": {
+        "fg": {
+          "$value": "#674698"
+        },
+        "bg": {
+          "$value": "#F5F1FF"
+        },
+        "border": {
+          "$value": "#9372C8"
+        },
+        "solid": {
+          "$value": "#7750B1"
+        }
+      },
+      "confirmed_fake": {
+        "fg": {
+          "$value": "#90355E"
+        },
+        "bg": {
+          "$value": "#FFEEF4"
+        },
+        "border": {
+          "$value": "#C1628A"
+        },
+        "solid": {
+          "$value": "#A73B6D"
+        }
+      },
+      "on_leave": {
+        "fg": {
+          "$value": "#08686C"
+        },
+        "bg": {
+          "$value": "#E1F9FA"
+        },
+        "border": {
+          "$value": "#0A999F"
+        },
+        "solid": {
+          "$value": "#02787D"
+        }
+      },
+      "info": {
+        "fg": {
+          "$value": "#056190"
+        },
+        "bg": {
+          "$value": "#EAF5FE"
+        },
+        "border": {
+          "$value": "#248FCC"
+        },
+        "solid": {
+          "$value": "#0470A5"
+        }
+      }
+    },
+    "map": {
+      "land": {
+        "$value": "#EDF0F6"
+      },
+      "road": {
+        "$value": "#FFFFFF"
+      },
+      "water": {
+        "$value": "#BEDCF3"
+      },
+      "park": {
+        "$value": "#D8EFDC"
+      },
+      "label": {
+        "$value": "{color.gray.600}"
+      }
+    },
+    "chart": {
+      "1": {
+        "$value": "#2F62C2"
+      },
+      "2": {
+        "$value": "#E8622A"
+      },
+      "3": {
+        "$value": "#1BAF7A"
+      },
+      "4": {
+        "$value": "#EDA100"
+      },
+      "5": {
+        "$value": "#E87BA4"
+      },
+      "6": {
+        "$value": "#008300"
+      },
+      "7": {
+        "$value": "#4A3AA7"
+      },
+      "8": {
+        "$value": "#E34948"
+      },
+      "grid": {
+        "$value": "{color.gray.200}"
+      },
+      "axis": {
+        "$value": "{color.gray.300}"
+      }
+    }
+  },
+  "shadow": {
+    "$type": "shadow",
+    "sm": {
+      "$value": [
+        {
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0,
+          "color": "rgba(7, 25, 60, 0.06)"
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "blur": 1,
+          "spread": 0,
+          "color": "rgba(7, 25, 60, 0.04)"
+        }
+      ]
+    },
+    "md": {
+      "$value": [
+        {
+          "x": 0,
+          "y": 4,
+          "blur": 12,
+          "spread": -2,
+          "color": "rgba(7, 25, 60, 0.08)"
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": -1,
+          "color": "rgba(7, 25, 60, 0.05)"
+        }
+      ]
+    },
+    "lg": {
+      "$value": [
+        {
+          "x": 0,
+          "y": 16,
+          "blur": 40,
+          "spread": -8,
+          "color": "rgba(7, 25, 60, 0.16)"
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "blur": 12,
+          "spread": -4,
+          "color": "rgba(7, 25, 60, 0.08)"
+        }
+      ]
+    }
+  }
+}

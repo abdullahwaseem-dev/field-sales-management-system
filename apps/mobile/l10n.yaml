@@ -1,0 +1,6 @@
+# Generated from packages/i18n (ICU) — edit packages/i18n/messages/*.json, then `npm run build:design`.
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false

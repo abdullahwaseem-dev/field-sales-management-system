@@ -1,0 +1,13 @@
+{
+  "name": "@sfms/brand",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ZONA logo assets (INTERIM until vector masters arrive) and self-hosted font files for native apps.",
+  "exports": {
+    "./interim/*": "./interim/*",
+    "./fonts/*": "./fonts/*"
+  },
+  "scripts": {
+    "extract": "python3 scripts/extract_interim.py"
+  }
+}

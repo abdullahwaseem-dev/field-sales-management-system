@@ -1,0 +1,96 @@
+{
+  "source": "logo.png (brand guidelines sheet, 1448x1086)",
+  "status": "INTERIM \u2014 replace with vector masters; see packages/brand/README.md",
+  "inks": {
+    "navy": "#07193C",
+    "orange": "#FD5813",
+    "reverse": "#FFFFFF"
+  },
+  "assets": [
+    {
+      "file": "zona-wordmark.png",
+      "purpose": "Primary wordmark (Latin) \u2014 on light backgrounds",
+      "width": 478,
+      "height": 109,
+      "max_css_width": 239,
+      "interim": true
+    },
+    {
+      "file": "zona-wordmark-reverse.png",
+      "purpose": "Primary wordmark (Latin) \u2014 reverse, on dark backgrounds",
+      "width": 478,
+      "height": 109,
+      "max_css_width": 239,
+      "interim": true
+    },
+    {
+      "file": "zona-wordmark-ar.png",
+      "purpose": "Arabic wordmark \u2014 on light backgrounds",
+      "width": 286,
+      "height": 160,
+      "max_css_width": 143,
+      "interim": true
+    },
+    {
+      "file": "zona-wordmark-ar-reverse.png",
+      "purpose": "Arabic wordmark \u2014 reverse, on dark backgrounds",
+      "width": 286,
+      "height": 160,
+      "max_css_width": 143,
+      "interim": true
+    },
+    {
+      "file": "zona-lockup.png",
+      "purpose": "Bilingual lockup \u2014 on light backgrounds",
+      "width": 410,
+      "height": 93,
+      "max_css_width": 205,
+      "interim": true
+    },
+    {
+      "file": "zona-lockup-reverse.png",
+      "purpose": "Bilingual lockup \u2014 reverse, on dark backgrounds",
+      "width": 410,
+      "height": 93,
+      "max_css_width": 205,
+      "interim": true
+    },
+    {
+      "file": "zona-mark.png",
+      "purpose": "Brand mark (bare Z) \u2014 on light backgrounds",
+      "width": 119,
+      "height": 115,
+      "max_css_width": 59,
+      "interim": true
+    },
+    {
+      "file": "zona-mark-reverse.png",
+      "purpose": "Brand mark (bare Z) \u2014 reverse, on dark backgrounds",
+      "width": 119,
+      "height": 115,
+      "max_css_width": 59,
+      "interim": true
+    },
+    {
+      "file": "zona-icon-square.png",
+      "purpose": "Brand icon, rounded square \u2014 works on light and dark",
+      "width": 118,
+      "height": 121,
+      "max_css_width": 59,
+      "interim": true
+    },
+    {
+      "file": "zona-icon-circle.png",
+      "purpose": "Brand icon, circle \u2014 works on light and dark",
+      "width": 114,
+      "height": 119,
+      "max_css_width": 57,
+      "interim": true
+    },
+    {
+      "file": "favicon.ico",
+      "purpose": "Browser tab icon (16/32/48, downscaled)",
+      "interim": true
+    }
+  ]
+}
